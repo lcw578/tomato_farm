@@ -1,0 +1,482 @@
+[
+ {
+  "marker_type": "FRUIT",
+  "truss_id": 0,
+  "ripeness": "red",
+  "translation": [
+   0.588811,
+   -0.004284,
+   0.634722
+  ]
+ },
+ {
+  "marker_type": "FRUIT",
+  "truss_id": 0,
+  "ripeness": "red",
+  "translation": [
+   0.580835,
+   0.029493,
+   0.595581
+  ]
+ },
+ {
+  "marker_type": "FRUIT",
+  "truss_id": 0,
+  "ripeness": "red",
+  "translation": [
+   0.575427,
+   0.027681,
+   0.639871
+  ]
+ },
+ {
+  "marker_type": "FRUIT",
+  "truss_id": 0,
+  "ripeness": "red",
+  "translation": [
+   0.568854,
+   0.023806,
+   0.551348
+  ]
+ },
+ {
+  "marker_type": "FRUIT",
+  "truss_id": 0,
+  "ripeness": "red",
+  "translation": [
+   0.557391,
+   -0.010261,
+   0.543113
+  ]
+ },
+ {
+  "marker_type": "FRUIT",
+  "truss_id": 0,
+  "ripeness": "red",
+  "translation": [
+   0.556746,
+   -0.009791,
+   0.506585
+  ]
+ },
+ {
+  "marker_type": "FRUIT",
+  "truss_id": 0,
+  "ripeness": "red",
+  "translation": [
+   0.5938,
+   -0.004371,
+   0.593426
+  ]
+ },
+ {
+  "marker_type": "FRUIT",
+  "truss_id": 0,
+  "ripeness": "red",
+  "translation": [
+   0.558866,
+   0.022594,
+   0.429742
+  ]
+ },
+ {
+  "marker_type": "FRUIT",
+  "truss_id": 0,
+  "ripeness": "red",
+  "translation": [
+   0.548201,
+   0.019715,
+   0.47179
+  ]
+ },
+ {
+  "marker_type": "FRUIT",
+  "truss_id": 0,
+  "ripeness": "red",
+  "translation": [
+   0.560571,
+   -0.013962,
+   0.472015
+  ]
+ },
+ {
+  "marker_type": "FRUIT",
+  "truss_id": 0,
+  "ripeness": "red",
+  "translation": [
+   0.574766,
+   -0.009228,
+   0.432497
+  ]
+ },
+ {
+  "marker_type": "FRUIT",
+  "truss_id": 0,
+  "ripeness": "red",
+  "translation": [
+   0.550476,
+   0.018355,
+   0.508334
+  ]
+ },
+ {
+  "marker_type": "FRUIT",
+  "truss_id": 1,
+  "ripeness": "red",
+  "translation": [
+   0.835455,
+   0.013201,
+   0.908625
+  ]
+ },
+ {
+  "marker_type": "FRUIT",
+  "truss_id": 1,
+  "ripeness": "red",
+  "translation": [
+   0.868599,
+   0.029088,
+   0.832788
+  ]
+ },
+ {
+  "marker_type": "FRUIT",
+  "truss_id": 1,
+  "ripeness": "red",
+  "translation": [
+   0.8693,
+   0.01414,
+   0.872306
+  ]
+ },
+ {
+  "marker_type": "FRUIT",
+  "truss_id": 1,
+  "ripeness": "red",
+  "translation": [
+   0.833529,
+   0.011381,
+   0.872081
+  ]
+ },
+ {
+  "marker_type": "FRUIT",
+  "truss_id": 1,
+  "ripeness": "red",
+  "translation": [
+   0.833654,
+   0.022426,
+   0.830032
+  ]
+ },
+ {
+  "marker_type": "FRUIT",
+  "truss_id": 1,
+  "ripeness": "red",
+  "translation": [
+   0.869092,
+   0.048725,
+   0.993717
+  ]
+ },
+ {
+  "marker_type": "FRUIT",
+  "truss_id": 1,
+  "ripeness": "red",
+  "translation": [
+   0.864246,
+   0.011592,
+   0.906876
+  ]
+ },
+ {
+  "marker_type": "FRUIT",
+  "truss_id": 1,
+  "ripeness": "red",
+  "translation": [
+   0.864873,
+   0.012085,
+   0.943404
+  ]
+ },
+ {
+  "marker_type": "FRUIT",
+  "truss_id": 1,
+  "ripeness": "red",
+  "translation": [
+   0.8352,
+   0.032369,
+   0.951639
+  ]
+ },
+ {
+  "marker_type": "FRUIT",
+  "truss_id": 1,
+  "ripeness": "red",
+  "translation": [
+   0.833256,
+   0.039747,
+   1.040162
+  ]
+ },
+ {
+  "marker_type": "FRUIT",
+  "truss_id": 1,
+  "ripeness": "red",
+  "translation": [
+   0.832981,
+   0.045444,
+   0.995872
+  ]
+ },
+ {
+  "marker_type": "FRUIT",
+  "truss_id": 1,
+  "ripeness": "red",
+  "translation": [
+   0.867654,
+   0.043947,
+   1.035013
+  ]
+ },
+ {
+  "marker_type": "FRUIT",
+  "truss_id": 2,
+  "ripeness": "orange",
+  "translation": [
+   1.769209,
+   -0.174234,
+   1.256087
+  ]
+ },
+ {
+  "marker_type": "FRUIT",
+  "truss_id": 2,
+  "ripeness": "orange",
+  "translation": [
+   1.752285,
+   -0.141609,
+   1.180251
+  ]
+ },
+ {
+  "marker_type": "FRUIT",
+  "truss_id": 2,
+  "ripeness": "orange",
+  "translation": [
+   1.767203,
+   -0.140437,
+   1.219769
+  ]
+ },
+ {
+  "marker_type": "FRUIT",
+  "truss_id": 2,
+  "ripeness": "orange",
+  "translation": [
+   1.771089,
+   -0.176103,
+   1.219544
+  ]
+ },
+ {
+  "marker_type": "FRUIT",
+  "truss_id": 2,
+  "ripeness": "orange",
+  "translation": [
+   1.760045,
+   -0.176325,
+   1.177495
+  ]
+ },
+ {
+  "marker_type": "FRUIT",
+  "truss_id": 2,
+  "ripeness": "orange",
+  "translation": [
+   1.732642,
+   -0.141734,
+   1.341179
+  ]
+ },
+ {
+  "marker_type": "FRUIT",
+  "truss_id": 2,
+  "ripeness": "orange",
+  "translation": [
+   1.769909,
+   -0.145407,
+   1.254339
+  ]
+ },
+ {
+  "marker_type": "FRUIT",
+  "truss_id": 2,
+  "ripeness": "orange",
+  "translation": [
+   1.769397,
+   -0.144796,
+   1.290867
+  ]
+ },
+ {
+  "marker_type": "FRUIT",
+  "truss_id": 2,
+  "ripeness": "orange",
+  "translation": [
+   1.750059,
+   -0.175094,
+   1.299102
+  ]
+ },
+ {
+  "marker_type": "FRUIT",
+  "truss_id": 2,
+  "ripeness": "orange",
+  "translation": [
+   1.742746,
+   -0.17727,
+   1.387625
+  ]
+ },
+ {
+  "marker_type": "FRUIT",
+  "truss_id": 2,
+  "ripeness": "orange",
+  "translation": [
+   1.73706,
+   -0.177724,
+   1.343335
+  ]
+ },
+ {
+  "marker_type": "FRUIT",
+  "truss_id": 2,
+  "ripeness": "orange",
+  "translation": [
+   1.737463,
+   -0.143021,
+   1.382476
+  ]
+ },
+ {
+  "marker_type": "FRUIT",
+  "truss_id": 3,
+  "ripeness": "green",
+  "translation": [
+   1.356977,
+   -0.011922,
+   1.543431
+  ]
+ },
+ {
+  "marker_type": "FRUIT",
+  "truss_id": 3,
+  "ripeness": "green",
+  "translation": [
+   1.325222,
+   -0.030427,
+   1.467595
+  ]
+ },
+ {
+  "marker_type": "FRUIT",
+  "truss_id": 3,
+  "ripeness": "green",
+  "translation": [
+   1.323319,
+   -0.015584,
+   1.507112
+  ]
+ },
+ {
+  "marker_type": "FRUIT",
+  "truss_id": 3,
+  "ripeness": "green",
+  "translation": [
+   1.358751,
+   -0.009953,
+   1.506887
+  ]
+ },
+ {
+  "marker_type": "FRUIT",
+  "truss_id": 3,
+  "ripeness": "green",
+  "translation": [
+   1.359515,
+   -0.020972,
+   1.464839
+  ]
+ },
+ {
+  "marker_type": "FRUIT",
+  "truss_id": 3,
+  "ripeness": "green",
+  "translation": [
+   1.326311,
+   -0.05004,
+   1.628523
+  ]
+ },
+ {
+  "marker_type": "FRUIT",
+  "truss_id": 3,
+  "ripeness": "green",
+  "translation": [
+   1.32815,
+   -0.012637,
+   1.541682
+  ]
+ },
+ {
+  "marker_type": "FRUIT",
+  "truss_id": 3,
+  "ripeness": "green",
+  "translation": [
+   1.327565,
+   -0.013179,
+   1.57821
+  ]
+ },
+ {
+  "marker_type": "FRUIT",
+  "truss_id": 3,
+  "ripeness": "green",
+  "translation": [
+   1.358776,
+   -0.031007,
+   1.586445
+  ]
+ },
+ {
+  "marker_type": "FRUIT",
+  "truss_id": 3,
+  "ripeness": "green",
+  "translation": [
+   1.361308,
+   -0.038204,
+   1.674968
+  ]
+ },
+ {
+  "marker_type": "FRUIT",
+  "truss_id": 3,
+  "ripeness": "green",
+  "translation": [
+   1.362041,
+   -0.043861,
+   1.630678
+  ]
+ },
+ {
+  "marker_type": "FRUIT",
+  "truss_id": 3,
+  "ripeness": "green",
+  "translation": [
+   1.32736,
+   -0.045162,
+   1.669819
+  ]
+ }
+]

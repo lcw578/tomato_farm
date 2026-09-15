@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<sdf version="1.6">
+  <model name="tomato_vine_repo_v2">
+    <static>true</static>
+    <link name="link">
+      <collision name="collision_trunk">
+        <geometry><cylinder><radius>0.014</radius><length>1.682</length></cylinder></geometry>
+        <pose>0.4018 0 0.7389 0 0.4981 0</pose>
+      </collision>
+      <visual name="plant">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_vine_repo_v2/meshes/tomato_vine_repo_v2.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+  </model>
+</sdf>

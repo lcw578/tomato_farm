@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<sdf version="1.6">
+  <model name="tomato1_truss">
+    <static>true</static>
+    <link name="link">
+      <collision name="collision">
+        <geometry>
+          <cylinder>
+            <radius>0.09</radius>
+            <length>0.35</length>
+          </cylinder>
+        </geometry>
+        <pose>0 0.02 0.98 0 0 0</pose>
+      </collision>
+      <visual name="fruits">
+        <geometry>
+          <mesh>
+            <uri>model://tomato1_truss/meshes/fruits.dae</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://tomato1_truss/materials/scripts/</uri>
+            <uri>model://tomato1_truss/materials/textures/</uri>
+            <name>fruit</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="stems">
+        <geometry>
+          <mesh>
+            <uri>model://tomato1_truss/meshes/stems.dae</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://tomato1_truss/materials/scripts/</uri>
+            <uri>model://tomato1_truss/materials/textures/</uri>
+            <name>branch</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>

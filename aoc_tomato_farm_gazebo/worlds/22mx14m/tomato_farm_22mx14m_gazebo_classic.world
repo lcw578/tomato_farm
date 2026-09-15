@@ -1,0 +1,1330 @@
+<?xml version="1.0" ?>
+<sdf version='1.7'>
+    <world name='field'>
+    <light name='sun' type='directional'>
+      <cast_shadows>1</cast_shadows>
+      <pose>0 0 10 0 -0 0</pose>
+      <diffuse>0.8 0.8 0.8 1</diffuse>
+      <specular>0.2 0.2 0.2 1</specular>
+      <attenuation>
+        <range>1000</range>
+        <constant>0.9</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <direction>-0.5 0.1 -0.9</direction>
+      <spot>
+        <inner_angle>0</inner_angle>
+        <outer_angle>0</outer_angle>
+        <falloff>0</falloff>
+      </spot>
+    </light>
+    
+    <model name="ground_plane">
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>22 14 0.05</size>
+            </box>
+          </geometry>
+          <surface>
+            <contact>
+              <collide_bitmask>65535</collide_bitmask>
+              <ode/>
+            </contact>
+            <friction>
+              <ode>
+                <mu>100</mu>
+                <mu2>50</mu2>
+              </ode>
+              <torsional>
+                <ode/>
+              </torsional>
+            </friction>
+            <bounce/>
+          </surface>
+          <max_contacts>10</max_contacts>
+        </collision>
+        <visual name="visual">
+          <cast_shadows>0</cast_shadows>
+          <geometry>
+            <box>
+              <size>22 14 0.05</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.72 0.70 0.76 1</ambient>
+            <diffuse>0.72 0.70 0.76 1</diffuse>
+            <specular>0.3 0.3 0.3 1</specular>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+    </model>
+    
+    <gravity>0 0 -9.81</gravity>
+    <magnetic_field>6e-06 2.3e-05 -4.2e-05</magnetic_field>
+    <atmosphere type='adiabatic'/>
+    <physics type='ode'>
+      <max_step_size>0.001</max_step_size>
+      <real_time_factor>1</real_time_factor>
+      <real_time_update_rate>1000</real_time_update_rate>
+    </physics>
+    <scene>
+      <ambient>0.4 0.4 0.4 1</ambient>
+      <background>0.7 0.7 0.7 1</background>
+      <shadows>1</shadows>
+    </scene>
+    <audio>
+      <device>default</device>
+    </audio>
+    <wind/>
+    <spherical_coordinates>
+      <surface_model>EARTH_WGS84</surface_model>
+      <latitude_deg>0</latitude_deg>
+      <longitude_deg>0</longitude_deg>
+      <elevation>0</elevation>
+      <heading_deg>0</heading_deg>
+    </spherical_coordinates>
+    
+    <state world_name='field'>
+      <sim_time>59 840000000</sim_time>
+      <real_time>59 978066212</real_time>
+      <wall_time>1696518078 449701879</wall_time>
+      <iterations>59840</iterations>
+      <model name='ground_plane'>
+        <pose>0 0 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link'>
+          <pose>0 0 0 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>     
+     <light name='sun'>
+        <pose frame=''>0 0 10 0 -0 0</pose>
+      </light>
+    </state>     
+     
+
+        
+        <!-- Truss tomato samples for visual evaluation -->
+        
+        
+        
+
+        <!-- Glasshouse structure (from upstream main branch, original size, centered on farm) -->
+        <include>
+            <uri>model://greenhouse_structure</uri>
+            <name>greenhouse_structure</name>
+            <pose>0 0 0 0 0 0</pose>
+        </include>
+
+
+            <include>
+            <uri>model://tomato_vine_repo_v10</uri>
+            <name>vine_plant_0</name>
+            <pose>-8.4 -2.8 0.5 0 0 -41.53</pose>
+        </include>
+        <include>
+            <uri>model://tomato_vine_repo_v1</uri>
+            <name>vine_plant_1</name>
+            <pose>-7.7 -2.8 0.5 0 0 17.66</pose>
+        </include>
+        <include>
+            <uri>model://tomato_vine_repo_v0</uri>
+            <name>vine_plant_2</name>
+            <pose>-7.0 -2.8 0.5 0 0 -32.05</pose>
+        </include>
+        <include>
+            <uri>model://tomato_vine_repo_v11</uri>
+            <name>vine_plant_3</name>
+            <pose>-6.3 -2.8 0.5 0 0 -3.37</pose>
+        </include>
+        <include>
+            <uri>model://tomato_vine_repo_v4</uri>
+            <name>vine_plant_4</name>
+            <pose>-5.6 -2.8 0.5 0 0 15.45</pose>
+        </include>
+        <include>
+            <uri>model://tomato_vine_repo_v3</uri>
+            <name>vine_plant_5</name>
+            <pose>-4.9 -2.8 0.5 0 0 26.37</pose>
+        </include>
+        <include>
+            <uri>model://tomato_vine_repo_v3</uri>
+            <name>vine_plant_6</name>
+            <pose>-4.2 -2.8 0.5 0 0 -4.21</pose>
+        </include>
+        <include>
+            <uri>model://tomato_vine_repo_v2</uri>
+            <name>vine_plant_7</name>
+            <pose>-3.5 -2.8 0.5 0 0 -43.28</pose>
+        </include>
+        <include>
+            <uri>model://tomato_vine_repo_v11</uri>
+            <name>vine_plant_8</name>
+            <pose>-2.8 -2.8 0.5 0 0 -6.09</pose>
+        </include>
+        <include>
+            <uri>model://tomato_vine_repo_v1</uri>
+            <name>vine_plant_9</name>
+            <pose>-2.1 -2.8 0.5 0 0 31.71</pose>
+        </include>
+        <include>
+            <uri>model://tomato_vine_repo_v10</uri>
+            <name>vine_plant_10</name>
+            <pose>-1.4 -2.8 0.5 0 0 4.23</pose>
+        </include>
+        <include>
+            <uri>model://tomato_vine_repo_v11</uri>
+            <name>vine_plant_11</name>
+            <pose>-0.7 -2.8 0.5 0 0 22.98</pose>
+        </include>
+        <include>
+            <uri>model://tomato_vine_repo_v8</uri>
+            <name>vine_plant_12</name>
+            <pose>0.0 -2.8 0.5 0 0 -5.93</pose>
+        </include>
+        <include>
+            <uri>model://tomato_vine_repo_v1</uri>
+            <name>vine_plant_13</name>
+            <pose>0.7 -2.8 0.5 0 0 -29.14</pose>
+        </include>
+        <include>
+            <uri>model://tomato_vine_repo_v9</uri>
+            <name>vine_plant_14</name>
+            <pose>1.4 -2.8 0.5 0 0 31.58</pose>
+        </include>
+        <include>
+            <uri>model://tomato_vine_repo_v6</uri>
+            <name>vine_plant_15</name>
+            <pose>2.1 -2.8 0.5 0 0 -11.17</pose>
+        </include>
+        <include>
+            <uri>model://tomato_vine_repo_v0</uri>
+            <name>vine_plant_16</name>
+            <pose>2.8 -2.8 0.5 0 0 -36.38</pose>
+        </include>
+        <include>
+            <uri>model://tomato_vine_repo_v0</uri>
+            <name>vine_plant_17</name>
+            <pose>3.5 -2.8 0.5 0 0 1.12</pose>
+        </include>
+        <include>
+            <uri>model://tomato_vine_repo_v1</uri>
+            <name>vine_plant_18</name>
+            <pose>4.2 -2.8 0.5 0 0 24.51</pose>
+        </include>
+        <include>
+            <uri>model://tomato_vine_repo_v3</uri>
+            <name>vine_plant_19</name>
+            <pose>4.9 -2.8 0.5 0 0 8.75</pose>
+        </include>
+        <include>
+            <uri>model://tomato_vine_repo_v3</uri>
+            <name>vine_plant_20</name>
+            <pose>5.6 -2.8 0.5 0 0 0.60</pose>
+        </include>
+        <include>
+            <uri>model://tomato_vine_repo_v8</uri>
+            <name>vine_plant_21</name>
+            <pose>6.3 -2.8 0.5 0 0 6.76</pose>
+        </include>
+        <include>
+            <uri>model://tomato_vine_repo_v9</uri>
+            <name>vine_plant_22</name>
+            <pose>7.0 -2.8 0.5 0 0 -11.08</pose>
+        </include>
+        <include>
+            <uri>model://tomato_vine_repo_v0</uri>
+            <name>vine_plant_23</name>
+            <pose>7.7 -2.8 0.5 0 0 -40.60</pose>
+        </include>
+        <include>
+            <uri>model://tomato_vine_repo_v8</uri>
+            <name>vine_plant_24</name>
+            <pose>8.4 -2.8 0.5 0 0 39.77</pose>
+        </include>
+        <include>
+            <uri>model://tomato_vine_repo_v3</uri>
+            <name>vine_plant_25</name>
+            <pose>-8.4 0.0 0.5 0 0 210.52</pose>
+        </include>
+        <include>
+            <uri>model://tomato_vine_repo_v11</uri>
+            <name>vine_plant_26</name>
+            <pose>-7.7 0.0 0.5 0 0 161.65</pose>
+        </include>
+        <include>
+            <uri>model://tomato_vine_repo_v10</uri>
+            <name>vine_plant_27</name>
+            <pose>-7.0 0.0 0.5 0 0 214.99</pose>
+        </include>
+        <include>
+            <uri>model://tomato_vine_repo_v11</uri>
+            <name>vine_plant_28</name>
+            <pose>-6.3 0.0 0.5 0 0 182.00</pose>
+        </include>
+        <include>
+            <uri>model://tomato_vine_repo_v8</uri>
+            <name>vine_plant_29</name>
+            <pose>-5.6 0.0 0.5 0 0 144.27</pose>
+        </include>
+        <include>
+            <uri>model://tomato_vine_repo_v6</uri>
+            <name>vine_plant_30</name>
+            <pose>-4.9 0.0 0.5 0 0 212.01</pose>
+        </include>
+        <include>
+            <uri>model://tomato_vine_repo_v3</uri>
+            <name>vine_plant_31</name>
+            <pose>-4.2 0.0 0.5 0 0 187.59</pose>
+        </include>
+        <include>
+            <uri>model://tomato_vine_repo_v7</uri>
+            <name>vine_plant_32</name>
+            <pose>-3.5 0.0 0.5 0 0 218.95</pose>
+        </include>
+        <include>
+            <uri>model://tomato_vine_repo_v9</uri>
+            <name>vine_plant_33</name>
+            <pose>-2.8 0.0 0.5 0 0 196.13</pose>
+        </include>
+        <include>
+            <uri>model://tomato_vine_repo_v4</uri>
+            <name>vine_plant_34</name>
+            <pose>-2.1 0.0 0.5 0 0 143.47</pose>
+        </include>
+        <include>
+            <uri>model://tomato_vine_repo_v0</uri>
+            <name>vine_plant_35</name>
+            <pose>-1.4 0.0 0.5 0 0 191.05</pose>
+        </include>
+        <include>
+            <uri>model://tomato_vine_repo_v2</uri>
+            <name>vine_plant_36</name>
+            <pose>-0.7 0.0 0.5 0 0 205.82</pose>
+        </include>
+        <include>
+            <uri>model://tomato_vine_repo_v11</uri>
+            <name>vine_plant_37</name>
+            <pose>0.0 0.0 0.5 0 0 215.90</pose>
+        </include>
+        <include>
+            <uri>model://tomato_vine_repo_v6</uri>
+            <name>vine_plant_38</name>
+            <pose>0.7 0.0 0.5 0 0 164.81</pose>
+        </include>
+        <include>
+            <uri>model://tomato_vine_repo_v5</uri>
+            <name>vine_plant_39</name>
+            <pose>1.4 0.0 0.5 0 0 182.60</pose>
+        </include>
+        <include>
+            <uri>model://tomato_vine_repo_v4</uri>
+            <name>vine_plant_40</name>
+            <pose>2.1 0.0 0.5 0 0 198.10</pose>
+        </include>
+        <include>
+            <uri>model://tomato_vine_repo_v2</uri>
+            <name>vine_plant_41</name>
+            <pose>2.8 0.0 0.5 0 0 150.01</pose>
+        </include>
+        <include>
+            <uri>model://tomato_vine_repo_v3</uri>
+            <name>vine_plant_42</name>
+            <pose>3.5 0.0 0.5 0 0 211.35</pose>
+        </include>
+        <include>
+            <uri>model://tomato_vine_repo_v5</uri>
+            <name>vine_plant_43</name>
+            <pose>4.2 0.0 0.5 0 0 139.51</pose>
+        </include>
+        <include>
+            <uri>model://tomato_vine_repo_v1</uri>
+            <name>vine_plant_44</name>
+            <pose>4.9 0.0 0.5 0 0 188.23</pose>
+        </include>
+        <include>
+            <uri>model://tomato_vine_repo_v1</uri>
+            <name>vine_plant_45</name>
+            <pose>5.6 0.0 0.5 0 0 168.12</pose>
+        </include>
+        <include>
+            <uri>model://tomato_vine_repo_v6</uri>
+            <name>vine_plant_46</name>
+            <pose>6.3 0.0 0.5 0 0 151.74</pose>
+        </include>
+        <include>
+            <uri>model://tomato_vine_repo_v1</uri>
+            <name>vine_plant_47</name>
+            <pose>7.0 0.0 0.5 0 0 189.40</pose>
+        </include>
+        <include>
+            <uri>model://tomato_vine_repo_v5</uri>
+            <name>vine_plant_48</name>
+            <pose>7.7 0.0 0.5 0 0 222.23</pose>
+        </include>
+        <include>
+            <uri>model://tomato_vine_repo_v5</uri>
+            <name>vine_plant_49</name>
+            <pose>8.4 0.0 0.5 0 0 184.68</pose>
+        </include>
+        <include>
+            <uri>model://tomato_vine_repo_v9</uri>
+            <name>vine_plant_50</name>
+            <pose>-8.4 2.8 0.5 0 0 -34.80</pose>
+        </include>
+        <include>
+            <uri>model://tomato_vine_repo_v4</uri>
+            <name>vine_plant_51</name>
+            <pose>-7.7 2.8 0.5 0 0 -0.46</pose>
+        </include>
+        <include>
+            <uri>model://tomato_vine_repo_v0</uri>
+            <name>vine_plant_52</name>
+            <pose>-7.0 2.8 0.5 0 0 25.12</pose>
+        </include>
+        <include>
+            <uri>model://tomato_vine_repo_v11</uri>
+            <name>vine_plant_53</name>
+            <pose>-6.3 2.8 0.5 0 0 40.97</pose>
+        </include>
+        <include>
+            <uri>model://tomato_vine_repo_v7</uri>
+            <name>vine_plant_54</name>
+            <pose>-5.6 2.8 0.5 0 0 19.37</pose>
+        </include>
+        <include>
+            <uri>model://tomato_vine_repo_v8</uri>
+            <name>vine_plant_55</name>
+            <pose>-4.9 2.8 0.5 0 0 -41.28</pose>
+        </include>
+        <include>
+            <uri>model://tomato_vine_repo_v1</uri>
+            <name>vine_plant_56</name>
+            <pose>-4.2 2.8 0.5 0 0 41.99</pose>
+        </include>
+        <include>
+            <uri>model://tomato_vine_repo_v6</uri>
+            <name>vine_plant_57</name>
+            <pose>-3.5 2.8 0.5 0 0 9.17</pose>
+        </include>
+        <include>
+            <uri>model://tomato_vine_repo_v1</uri>
+            <name>vine_plant_58</name>
+            <pose>-2.8 2.8 0.5 0 0 -37.47</pose>
+        </include>
+        <include>
+            <uri>model://tomato_vine_repo_v8</uri>
+            <name>vine_plant_59</name>
+            <pose>-2.1 2.8 0.5 0 0 14.83</pose>
+        </include>
+        <include>
+            <uri>model://tomato_vine_repo_v4</uri>
+            <name>vine_plant_60</name>
+            <pose>-1.4 2.8 0.5 0 0 -31.13</pose>
+        </include>
+        <include>
+            <uri>model://tomato_vine_repo_v10</uri>
+            <name>vine_plant_61</name>
+            <pose>-0.7 2.8 0.5 0 0 27.67</pose>
+        </include>
+        <include>
+            <uri>model://tomato_vine_repo_v9</uri>
+            <name>vine_plant_62</name>
+            <pose>0.0 2.8 0.5 0 0 -35.20</pose>
+        </include>
+        <include>
+            <uri>model://tomato_vine_repo_v5</uri>
+            <name>vine_plant_63</name>
+            <pose>0.7 2.8 0.5 0 0 3.17</pose>
+        </include>
+        <include>
+            <uri>model://tomato_vine_repo_v9</uri>
+            <name>vine_plant_64</name>
+            <pose>1.4 2.8 0.5 0 0 -5.12</pose>
+        </include>
+        <include>
+            <uri>model://tomato_vine_repo_v3</uri>
+            <name>vine_plant_65</name>
+            <pose>2.1 2.8 0.5 0 0 -41.58</pose>
+        </include>
+        <include>
+            <uri>model://tomato_vine_repo_v11</uri>
+            <name>vine_plant_66</name>
+            <pose>2.8 2.8 0.5 0 0 36.32</pose>
+        </include>
+        <include>
+            <uri>model://tomato_vine_repo_v1</uri>
+            <name>vine_plant_67</name>
+            <pose>3.5 2.8 0.5 0 0 -33.81</pose>
+        </include>
+        <include>
+            <uri>model://tomato_vine_repo_v0</uri>
+            <name>vine_plant_68</name>
+            <pose>4.2 2.8 0.5 0 0 21.11</pose>
+        </include>
+        <include>
+            <uri>model://tomato_vine_repo_v10</uri>
+            <name>vine_plant_69</name>
+            <pose>4.9 2.8 0.5 0 0 44.03</pose>
+        </include>
+        <include>
+            <uri>model://tomato_vine_repo_v3</uri>
+            <name>vine_plant_70</name>
+            <pose>5.6 2.8 0.5 0 0 36.34</pose>
+        </include>
+        <include>
+            <uri>model://tomato_vine_repo_v4</uri>
+            <name>vine_plant_71</name>
+            <pose>6.3 2.8 0.5 0 0 -14.61</pose>
+        </include>
+        <include>
+            <uri>model://tomato_vine_repo_v1</uri>
+            <name>vine_plant_72</name>
+            <pose>7.0 2.8 0.5 0 0 19.56</pose>
+        </include>
+        <include>
+            <uri>model://tomato_vine_repo_v3</uri>
+            <name>vine_plant_73</name>
+            <pose>7.7 2.8 0.5 0 0 -0.17</pose>
+        </include>
+        <include>
+            <uri>model://tomato_vine_repo_v1</uri>
+            <name>vine_plant_74</name>
+            <pose>8.4 2.8 0.5 0 0 39.36</pose>
+        </include>
+        <include>
+            <uri>model://soilbed_model</uri>
+            <name>soilbed_-2.8_0</name>
+            <pose>-8.4 -2.8 0.4 0 0 1.5708</pose>
+        </include>
+        <include>
+            <uri>model://flowerpot_model</uri>
+            <name>flowerpot_-2.8_0</name>
+            <pose>-8.4 -2.8 0.5 0 0 -1.6</pose>
+        </include>
+        <include>
+            <uri>model://soilbed_model</uri>
+            <name>soilbed_-2.8_1</name>
+            <pose>-7.7 -2.8 0.4 0 0 1.5708</pose>
+        </include>
+        <include>
+            <uri>model://flowerpot_model</uri>
+            <name>flowerpot_-2.8_1</name>
+            <pose>-7.7 -2.8 0.5 0 0 -1.6</pose>
+        </include>
+        <include>
+            <uri>model://soilbed_model</uri>
+            <name>soilbed_-2.8_2</name>
+            <pose>-7.0 -2.8 0.4 0 0 1.5708</pose>
+        </include>
+        <include>
+            <uri>model://flowerpot_model</uri>
+            <name>flowerpot_-2.8_2</name>
+            <pose>-7.0 -2.8 0.5 0 0 -1.6</pose>
+        </include>
+        <include>
+            <uri>model://soilbed_model</uri>
+            <name>soilbed_-2.8_3</name>
+            <pose>-6.3 -2.8 0.4 0 0 1.5708</pose>
+        </include>
+        <include>
+            <uri>model://flowerpot_model</uri>
+            <name>flowerpot_-2.8_3</name>
+            <pose>-6.3 -2.8 0.5 0 0 -1.6</pose>
+        </include>
+        <include>
+            <uri>model://soilbed_model</uri>
+            <name>soilbed_-2.8_4</name>
+            <pose>-5.6 -2.8 0.4 0 0 1.5708</pose>
+        </include>
+        <include>
+            <uri>model://flowerpot_model</uri>
+            <name>flowerpot_-2.8_4</name>
+            <pose>-5.6 -2.8 0.5 0 0 -1.6</pose>
+        </include>
+        <include>
+            <uri>model://soilbed_model</uri>
+            <name>soilbed_-2.8_5</name>
+            <pose>-4.9 -2.8 0.4 0 0 1.5708</pose>
+        </include>
+        <include>
+            <uri>model://flowerpot_model</uri>
+            <name>flowerpot_-2.8_5</name>
+            <pose>-4.9 -2.8 0.5 0 0 -1.6</pose>
+        </include>
+        <include>
+            <uri>model://soilbed_model</uri>
+            <name>soilbed_-2.8_6</name>
+            <pose>-4.2 -2.8 0.4 0 0 1.5708</pose>
+        </include>
+        <include>
+            <uri>model://flowerpot_model</uri>
+            <name>flowerpot_-2.8_6</name>
+            <pose>-4.2 -2.8 0.5 0 0 -1.6</pose>
+        </include>
+        <include>
+            <uri>model://soilbed_model</uri>
+            <name>soilbed_-2.8_7</name>
+            <pose>-3.5 -2.8 0.4 0 0 1.5708</pose>
+        </include>
+        <include>
+            <uri>model://flowerpot_model</uri>
+            <name>flowerpot_-2.8_7</name>
+            <pose>-3.5 -2.8 0.5 0 0 -1.6</pose>
+        </include>
+        <include>
+            <uri>model://soilbed_model</uri>
+            <name>soilbed_-2.8_8</name>
+            <pose>-2.8 -2.8 0.4 0 0 1.5708</pose>
+        </include>
+        <include>
+            <uri>model://flowerpot_model</uri>
+            <name>flowerpot_-2.8_8</name>
+            <pose>-2.8 -2.8 0.5 0 0 -1.6</pose>
+        </include>
+        <include>
+            <uri>model://soilbed_model</uri>
+            <name>soilbed_-2.8_9</name>
+            <pose>-2.1 -2.8 0.4 0 0 1.5708</pose>
+        </include>
+        <include>
+            <uri>model://flowerpot_model</uri>
+            <name>flowerpot_-2.8_9</name>
+            <pose>-2.1 -2.8 0.5 0 0 -1.6</pose>
+        </include>
+        <include>
+            <uri>model://soilbed_model</uri>
+            <name>soilbed_-2.8_10</name>
+            <pose>-1.4 -2.8 0.4 0 0 1.5708</pose>
+        </include>
+        <include>
+            <uri>model://flowerpot_model</uri>
+            <name>flowerpot_-2.8_10</name>
+            <pose>-1.4 -2.8 0.5 0 0 -1.6</pose>
+        </include>
+        <include>
+            <uri>model://soilbed_model</uri>
+            <name>soilbed_-2.8_11</name>
+            <pose>-0.7 -2.8 0.4 0 0 1.5708</pose>
+        </include>
+        <include>
+            <uri>model://flowerpot_model</uri>
+            <name>flowerpot_-2.8_11</name>
+            <pose>-0.7 -2.8 0.5 0 0 -1.6</pose>
+        </include>
+        <include>
+            <uri>model://soilbed_model</uri>
+            <name>soilbed_-2.8_12</name>
+            <pose>0.0 -2.8 0.4 0 0 1.5708</pose>
+        </include>
+        <include>
+            <uri>model://flowerpot_model</uri>
+            <name>flowerpot_-2.8_12</name>
+            <pose>0.0 -2.8 0.5 0 0 -1.6</pose>
+        </include>
+        <include>
+            <uri>model://soilbed_model</uri>
+            <name>soilbed_-2.8_13</name>
+            <pose>0.7 -2.8 0.4 0 0 1.5708</pose>
+        </include>
+        <include>
+            <uri>model://flowerpot_model</uri>
+            <name>flowerpot_-2.8_13</name>
+            <pose>0.7 -2.8 0.5 0 0 -1.6</pose>
+        </include>
+        <include>
+            <uri>model://soilbed_model</uri>
+            <name>soilbed_-2.8_14</name>
+            <pose>1.4 -2.8 0.4 0 0 1.5708</pose>
+        </include>
+        <include>
+            <uri>model://flowerpot_model</uri>
+            <name>flowerpot_-2.8_14</name>
+            <pose>1.4 -2.8 0.5 0 0 -1.6</pose>
+        </include>
+        <include>
+            <uri>model://soilbed_model</uri>
+            <name>soilbed_-2.8_15</name>
+            <pose>2.1 -2.8 0.4 0 0 1.5708</pose>
+        </include>
+        <include>
+            <uri>model://flowerpot_model</uri>
+            <name>flowerpot_-2.8_15</name>
+            <pose>2.1 -2.8 0.5 0 0 -1.6</pose>
+        </include>
+        <include>
+            <uri>model://soilbed_model</uri>
+            <name>soilbed_-2.8_16</name>
+            <pose>2.8 -2.8 0.4 0 0 1.5708</pose>
+        </include>
+        <include>
+            <uri>model://flowerpot_model</uri>
+            <name>flowerpot_-2.8_16</name>
+            <pose>2.8 -2.8 0.5 0 0 -1.6</pose>
+        </include>
+        <include>
+            <uri>model://soilbed_model</uri>
+            <name>soilbed_-2.8_17</name>
+            <pose>3.5 -2.8 0.4 0 0 1.5708</pose>
+        </include>
+        <include>
+            <uri>model://flowerpot_model</uri>
+            <name>flowerpot_-2.8_17</name>
+            <pose>3.5 -2.8 0.5 0 0 -1.6</pose>
+        </include>
+        <include>
+            <uri>model://soilbed_model</uri>
+            <name>soilbed_-2.8_18</name>
+            <pose>4.2 -2.8 0.4 0 0 1.5708</pose>
+        </include>
+        <include>
+            <uri>model://flowerpot_model</uri>
+            <name>flowerpot_-2.8_18</name>
+            <pose>4.2 -2.8 0.5 0 0 -1.6</pose>
+        </include>
+        <include>
+            <uri>model://soilbed_model</uri>
+            <name>soilbed_-2.8_19</name>
+            <pose>4.9 -2.8 0.4 0 0 1.5708</pose>
+        </include>
+        <include>
+            <uri>model://flowerpot_model</uri>
+            <name>flowerpot_-2.8_19</name>
+            <pose>4.9 -2.8 0.5 0 0 -1.6</pose>
+        </include>
+        <include>
+            <uri>model://soilbed_model</uri>
+            <name>soilbed_-2.8_20</name>
+            <pose>5.6 -2.8 0.4 0 0 1.5708</pose>
+        </include>
+        <include>
+            <uri>model://flowerpot_model</uri>
+            <name>flowerpot_-2.8_20</name>
+            <pose>5.6 -2.8 0.5 0 0 -1.6</pose>
+        </include>
+        <include>
+            <uri>model://soilbed_model</uri>
+            <name>soilbed_-2.8_21</name>
+            <pose>6.3 -2.8 0.4 0 0 1.5708</pose>
+        </include>
+        <include>
+            <uri>model://flowerpot_model</uri>
+            <name>flowerpot_-2.8_21</name>
+            <pose>6.3 -2.8 0.5 0 0 -1.6</pose>
+        </include>
+        <include>
+            <uri>model://soilbed_model</uri>
+            <name>soilbed_-2.8_22</name>
+            <pose>7.0 -2.8 0.4 0 0 1.5708</pose>
+        </include>
+        <include>
+            <uri>model://flowerpot_model</uri>
+            <name>flowerpot_-2.8_22</name>
+            <pose>7.0 -2.8 0.5 0 0 -1.6</pose>
+        </include>
+        <include>
+            <uri>model://soilbed_model</uri>
+            <name>soilbed_-2.8_23</name>
+            <pose>7.7 -2.8 0.4 0 0 1.5708</pose>
+        </include>
+        <include>
+            <uri>model://flowerpot_model</uri>
+            <name>flowerpot_-2.8_23</name>
+            <pose>7.7 -2.8 0.5 0 0 -1.6</pose>
+        </include>
+        <include>
+            <uri>model://soilbed_model</uri>
+            <name>soilbed_-2.8_24</name>
+            <pose>8.4 -2.8 0.4 0 0 1.5708</pose>
+        </include>
+        <include>
+            <uri>model://flowerpot_model</uri>
+            <name>flowerpot_-2.8_24</name>
+            <pose>8.4 -2.8 0.5 0 0 -1.6</pose>
+        </include>
+        <include>
+            <uri>model://soilbed_model</uri>
+            <name>soilbed_0.0_0</name>
+            <pose>-8.4 0.0 0.4 0 0 1.5708</pose>
+        </include>
+        <include>
+            <uri>model://flowerpot_model</uri>
+            <name>flowerpot_0.0_0</name>
+            <pose>-8.4 0.0 0.5 0 0 -1.6</pose>
+        </include>
+        <include>
+            <uri>model://soilbed_model</uri>
+            <name>soilbed_0.0_1</name>
+            <pose>-7.7 0.0 0.4 0 0 1.5708</pose>
+        </include>
+        <include>
+            <uri>model://flowerpot_model</uri>
+            <name>flowerpot_0.0_1</name>
+            <pose>-7.7 0.0 0.5 0 0 -1.6</pose>
+        </include>
+        <include>
+            <uri>model://soilbed_model</uri>
+            <name>soilbed_0.0_2</name>
+            <pose>-7.0 0.0 0.4 0 0 1.5708</pose>
+        </include>
+        <include>
+            <uri>model://flowerpot_model</uri>
+            <name>flowerpot_0.0_2</name>
+            <pose>-7.0 0.0 0.5 0 0 -1.6</pose>
+        </include>
+        <include>
+            <uri>model://soilbed_model</uri>
+            <name>soilbed_0.0_3</name>
+            <pose>-6.3 0.0 0.4 0 0 1.5708</pose>
+        </include>
+        <include>
+            <uri>model://flowerpot_model</uri>
+            <name>flowerpot_0.0_3</name>
+            <pose>-6.3 0.0 0.5 0 0 -1.6</pose>
+        </include>
+        <include>
+            <uri>model://soilbed_model</uri>
+            <name>soilbed_0.0_4</name>
+            <pose>-5.6 0.0 0.4 0 0 1.5708</pose>
+        </include>
+        <include>
+            <uri>model://flowerpot_model</uri>
+            <name>flowerpot_0.0_4</name>
+            <pose>-5.6 0.0 0.5 0 0 -1.6</pose>
+        </include>
+        <include>
+            <uri>model://soilbed_model</uri>
+            <name>soilbed_0.0_5</name>
+            <pose>-4.9 0.0 0.4 0 0 1.5708</pose>
+        </include>
+        <include>
+            <uri>model://flowerpot_model</uri>
+            <name>flowerpot_0.0_5</name>
+            <pose>-4.9 0.0 0.5 0 0 -1.6</pose>
+        </include>
+        <include>
+            <uri>model://soilbed_model</uri>
+            <name>soilbed_0.0_6</name>
+            <pose>-4.2 0.0 0.4 0 0 1.5708</pose>
+        </include>
+        <include>
+            <uri>model://flowerpot_model</uri>
+            <name>flowerpot_0.0_6</name>
+            <pose>-4.2 0.0 0.5 0 0 -1.6</pose>
+        </include>
+        <include>
+            <uri>model://soilbed_model</uri>
+            <name>soilbed_0.0_7</name>
+            <pose>-3.5 0.0 0.4 0 0 1.5708</pose>
+        </include>
+        <include>
+            <uri>model://flowerpot_model</uri>
+            <name>flowerpot_0.0_7</name>
+            <pose>-3.5 0.0 0.5 0 0 -1.6</pose>
+        </include>
+        <include>
+            <uri>model://soilbed_model</uri>
+            <name>soilbed_0.0_8</name>
+            <pose>-2.8 0.0 0.4 0 0 1.5708</pose>
+        </include>
+        <include>
+            <uri>model://flowerpot_model</uri>
+            <name>flowerpot_0.0_8</name>
+            <pose>-2.8 0.0 0.5 0 0 -1.6</pose>
+        </include>
+        <include>
+            <uri>model://soilbed_model</uri>
+            <name>soilbed_0.0_9</name>
+            <pose>-2.1 0.0 0.4 0 0 1.5708</pose>
+        </include>
+        <include>
+            <uri>model://flowerpot_model</uri>
+            <name>flowerpot_0.0_9</name>
+            <pose>-2.1 0.0 0.5 0 0 -1.6</pose>
+        </include>
+        <include>
+            <uri>model://soilbed_model</uri>
+            <name>soilbed_0.0_10</name>
+            <pose>-1.4 0.0 0.4 0 0 1.5708</pose>
+        </include>
+        <include>
+            <uri>model://flowerpot_model</uri>
+            <name>flowerpot_0.0_10</name>
+            <pose>-1.4 0.0 0.5 0 0 -1.6</pose>
+        </include>
+        <include>
+            <uri>model://soilbed_model</uri>
+            <name>soilbed_0.0_11</name>
+            <pose>-0.7 0.0 0.4 0 0 1.5708</pose>
+        </include>
+        <include>
+            <uri>model://flowerpot_model</uri>
+            <name>flowerpot_0.0_11</name>
+            <pose>-0.7 0.0 0.5 0 0 -1.6</pose>
+        </include>
+        <include>
+            <uri>model://soilbed_model</uri>
+            <name>soilbed_0.0_12</name>
+            <pose>0.0 0.0 0.4 0 0 1.5708</pose>
+        </include>
+        <include>
+            <uri>model://flowerpot_model</uri>
+            <name>flowerpot_0.0_12</name>
+            <pose>0.0 0.0 0.5 0 0 -1.6</pose>
+        </include>
+        <include>
+            <uri>model://soilbed_model</uri>
+            <name>soilbed_0.0_13</name>
+            <pose>0.7 0.0 0.4 0 0 1.5708</pose>
+        </include>
+        <include>
+            <uri>model://flowerpot_model</uri>
+            <name>flowerpot_0.0_13</name>
+            <pose>0.7 0.0 0.5 0 0 -1.6</pose>
+        </include>
+        <include>
+            <uri>model://soilbed_model</uri>
+            <name>soilbed_0.0_14</name>
+            <pose>1.4 0.0 0.4 0 0 1.5708</pose>
+        </include>
+        <include>
+            <uri>model://flowerpot_model</uri>
+            <name>flowerpot_0.0_14</name>
+            <pose>1.4 0.0 0.5 0 0 -1.6</pose>
+        </include>
+        <include>
+            <uri>model://soilbed_model</uri>
+            <name>soilbed_0.0_15</name>
+            <pose>2.1 0.0 0.4 0 0 1.5708</pose>
+        </include>
+        <include>
+            <uri>model://flowerpot_model</uri>
+            <name>flowerpot_0.0_15</name>
+            <pose>2.1 0.0 0.5 0 0 -1.6</pose>
+        </include>
+        <include>
+            <uri>model://soilbed_model</uri>
+            <name>soilbed_0.0_16</name>
+            <pose>2.8 0.0 0.4 0 0 1.5708</pose>
+        </include>
+        <include>
+            <uri>model://flowerpot_model</uri>
+            <name>flowerpot_0.0_16</name>
+            <pose>2.8 0.0 0.5 0 0 -1.6</pose>
+        </include>
+        <include>
+            <uri>model://soilbed_model</uri>
+            <name>soilbed_0.0_17</name>
+            <pose>3.5 0.0 0.4 0 0 1.5708</pose>
+        </include>
+        <include>
+            <uri>model://flowerpot_model</uri>
+            <name>flowerpot_0.0_17</name>
+            <pose>3.5 0.0 0.5 0 0 -1.6</pose>
+        </include>
+        <include>
+            <uri>model://soilbed_model</uri>
+            <name>soilbed_0.0_18</name>
+            <pose>4.2 0.0 0.4 0 0 1.5708</pose>
+        </include>
+        <include>
+            <uri>model://flowerpot_model</uri>
+            <name>flowerpot_0.0_18</name>
+            <pose>4.2 0.0 0.5 0 0 -1.6</pose>
+        </include>
+        <include>
+            <uri>model://soilbed_model</uri>
+            <name>soilbed_0.0_19</name>
+            <pose>4.9 0.0 0.4 0 0 1.5708</pose>
+        </include>
+        <include>
+            <uri>model://flowerpot_model</uri>
+            <name>flowerpot_0.0_19</name>
+            <pose>4.9 0.0 0.5 0 0 -1.6</pose>
+        </include>
+        <include>
+            <uri>model://soilbed_model</uri>
+            <name>soilbed_0.0_20</name>
+            <pose>5.6 0.0 0.4 0 0 1.5708</pose>
+        </include>
+        <include>
+            <uri>model://flowerpot_model</uri>
+            <name>flowerpot_0.0_20</name>
+            <pose>5.6 0.0 0.5 0 0 -1.6</pose>
+        </include>
+        <include>
+            <uri>model://soilbed_model</uri>
+            <name>soilbed_0.0_21</name>
+            <pose>6.3 0.0 0.4 0 0 1.5708</pose>
+        </include>
+        <include>
+            <uri>model://flowerpot_model</uri>
+            <name>flowerpot_0.0_21</name>
+            <pose>6.3 0.0 0.5 0 0 -1.6</pose>
+        </include>
+        <include>
+            <uri>model://soilbed_model</uri>
+            <name>soilbed_0.0_22</name>
+            <pose>7.0 0.0 0.4 0 0 1.5708</pose>
+        </include>
+        <include>
+            <uri>model://flowerpot_model</uri>
+            <name>flowerpot_0.0_22</name>
+            <pose>7.0 0.0 0.5 0 0 -1.6</pose>
+        </include>
+        <include>
+            <uri>model://soilbed_model</uri>
+            <name>soilbed_0.0_23</name>
+            <pose>7.7 0.0 0.4 0 0 1.5708</pose>
+        </include>
+        <include>
+            <uri>model://flowerpot_model</uri>
+            <name>flowerpot_0.0_23</name>
+            <pose>7.7 0.0 0.5 0 0 -1.6</pose>
+        </include>
+        <include>
+            <uri>model://soilbed_model</uri>
+            <name>soilbed_0.0_24</name>
+            <pose>8.4 0.0 0.4 0 0 1.5708</pose>
+        </include>
+        <include>
+            <uri>model://flowerpot_model</uri>
+            <name>flowerpot_0.0_24</name>
+            <pose>8.4 0.0 0.5 0 0 -1.6</pose>
+        </include>
+        <include>
+            <uri>model://soilbed_model</uri>
+            <name>soilbed_2.8_0</name>
+            <pose>-8.4 2.8 0.4 0 0 1.5708</pose>
+        </include>
+        <include>
+            <uri>model://flowerpot_model</uri>
+            <name>flowerpot_2.8_0</name>
+            <pose>-8.4 2.8 0.5 0 0 -1.6</pose>
+        </include>
+        <include>
+            <uri>model://soilbed_model</uri>
+            <name>soilbed_2.8_1</name>
+            <pose>-7.7 2.8 0.4 0 0 1.5708</pose>
+        </include>
+        <include>
+            <uri>model://flowerpot_model</uri>
+            <name>flowerpot_2.8_1</name>
+            <pose>-7.7 2.8 0.5 0 0 -1.6</pose>
+        </include>
+        <include>
+            <uri>model://soilbed_model</uri>
+            <name>soilbed_2.8_2</name>
+            <pose>-7.0 2.8 0.4 0 0 1.5708</pose>
+        </include>
+        <include>
+            <uri>model://flowerpot_model</uri>
+            <name>flowerpot_2.8_2</name>
+            <pose>-7.0 2.8 0.5 0 0 -1.6</pose>
+        </include>
+        <include>
+            <uri>model://soilbed_model</uri>
+            <name>soilbed_2.8_3</name>
+            <pose>-6.3 2.8 0.4 0 0 1.5708</pose>
+        </include>
+        <include>
+            <uri>model://flowerpot_model</uri>
+            <name>flowerpot_2.8_3</name>
+            <pose>-6.3 2.8 0.5 0 0 -1.6</pose>
+        </include>
+        <include>
+            <uri>model://soilbed_model</uri>
+            <name>soilbed_2.8_4</name>
+            <pose>-5.6 2.8 0.4 0 0 1.5708</pose>
+        </include>
+        <include>
+            <uri>model://flowerpot_model</uri>
+            <name>flowerpot_2.8_4</name>
+            <pose>-5.6 2.8 0.5 0 0 -1.6</pose>
+        </include>
+        <include>
+            <uri>model://soilbed_model</uri>
+            <name>soilbed_2.8_5</name>
+            <pose>-4.9 2.8 0.4 0 0 1.5708</pose>
+        </include>
+        <include>
+            <uri>model://flowerpot_model</uri>
+            <name>flowerpot_2.8_5</name>
+            <pose>-4.9 2.8 0.5 0 0 -1.6</pose>
+        </include>
+        <include>
+            <uri>model://soilbed_model</uri>
+            <name>soilbed_2.8_6</name>
+            <pose>-4.2 2.8 0.4 0 0 1.5708</pose>
+        </include>
+        <include>
+            <uri>model://flowerpot_model</uri>
+            <name>flowerpot_2.8_6</name>
+            <pose>-4.2 2.8 0.5 0 0 -1.6</pose>
+        </include>
+        <include>
+            <uri>model://soilbed_model</uri>
+            <name>soilbed_2.8_7</name>
+            <pose>-3.5 2.8 0.4 0 0 1.5708</pose>
+        </include>
+        <include>
+            <uri>model://flowerpot_model</uri>
+            <name>flowerpot_2.8_7</name>
+            <pose>-3.5 2.8 0.5 0 0 -1.6</pose>
+        </include>
+        <include>
+            <uri>model://soilbed_model</uri>
+            <name>soilbed_2.8_8</name>
+            <pose>-2.8 2.8 0.4 0 0 1.5708</pose>
+        </include>
+        <include>
+            <uri>model://flowerpot_model</uri>
+            <name>flowerpot_2.8_8</name>
+            <pose>-2.8 2.8 0.5 0 0 -1.6</pose>
+        </include>
+        <include>
+            <uri>model://soilbed_model</uri>
+            <name>soilbed_2.8_9</name>
+            <pose>-2.1 2.8 0.4 0 0 1.5708</pose>
+        </include>
+        <include>
+            <uri>model://flowerpot_model</uri>
+            <name>flowerpot_2.8_9</name>
+            <pose>-2.1 2.8 0.5 0 0 -1.6</pose>
+        </include>
+        <include>
+            <uri>model://soilbed_model</uri>
+            <name>soilbed_2.8_10</name>
+            <pose>-1.4 2.8 0.4 0 0 1.5708</pose>
+        </include>
+        <include>
+            <uri>model://flowerpot_model</uri>
+            <name>flowerpot_2.8_10</name>
+            <pose>-1.4 2.8 0.5 0 0 -1.6</pose>
+        </include>
+        <include>
+            <uri>model://soilbed_model</uri>
+            <name>soilbed_2.8_11</name>
+            <pose>-0.7 2.8 0.4 0 0 1.5708</pose>
+        </include>
+        <include>
+            <uri>model://flowerpot_model</uri>
+            <name>flowerpot_2.8_11</name>
+            <pose>-0.7 2.8 0.5 0 0 -1.6</pose>
+        </include>
+        <include>
+            <uri>model://soilbed_model</uri>
+            <name>soilbed_2.8_12</name>
+            <pose>0.0 2.8 0.4 0 0 1.5708</pose>
+        </include>
+        <include>
+            <uri>model://flowerpot_model</uri>
+            <name>flowerpot_2.8_12</name>
+            <pose>0.0 2.8 0.5 0 0 -1.6</pose>
+        </include>
+        <include>
+            <uri>model://soilbed_model</uri>
+            <name>soilbed_2.8_13</name>
+            <pose>0.7 2.8 0.4 0 0 1.5708</pose>
+        </include>
+        <include>
+            <uri>model://flowerpot_model</uri>
+            <name>flowerpot_2.8_13</name>
+            <pose>0.7 2.8 0.5 0 0 -1.6</pose>
+        </include>
+        <include>
+            <uri>model://soilbed_model</uri>
+            <name>soilbed_2.8_14</name>
+            <pose>1.4 2.8 0.4 0 0 1.5708</pose>
+        </include>
+        <include>
+            <uri>model://flowerpot_model</uri>
+            <name>flowerpot_2.8_14</name>
+            <pose>1.4 2.8 0.5 0 0 -1.6</pose>
+        </include>
+        <include>
+            <uri>model://soilbed_model</uri>
+            <name>soilbed_2.8_15</name>
+            <pose>2.1 2.8 0.4 0 0 1.5708</pose>
+        </include>
+        <include>
+            <uri>model://flowerpot_model</uri>
+            <name>flowerpot_2.8_15</name>
+            <pose>2.1 2.8 0.5 0 0 -1.6</pose>
+        </include>
+        <include>
+            <uri>model://soilbed_model</uri>
+            <name>soilbed_2.8_16</name>
+            <pose>2.8 2.8 0.4 0 0 1.5708</pose>
+        </include>
+        <include>
+            <uri>model://flowerpot_model</uri>
+            <name>flowerpot_2.8_16</name>
+            <pose>2.8 2.8 0.5 0 0 -1.6</pose>
+        </include>
+        <include>
+            <uri>model://soilbed_model</uri>
+            <name>soilbed_2.8_17</name>
+            <pose>3.5 2.8 0.4 0 0 1.5708</pose>
+        </include>
+        <include>
+            <uri>model://flowerpot_model</uri>
+            <name>flowerpot_2.8_17</name>
+            <pose>3.5 2.8 0.5 0 0 -1.6</pose>
+        </include>
+        <include>
+            <uri>model://soilbed_model</uri>
+            <name>soilbed_2.8_18</name>
+            <pose>4.2 2.8 0.4 0 0 1.5708</pose>
+        </include>
+        <include>
+            <uri>model://flowerpot_model</uri>
+            <name>flowerpot_2.8_18</name>
+            <pose>4.2 2.8 0.5 0 0 -1.6</pose>
+        </include>
+        <include>
+            <uri>model://soilbed_model</uri>
+            <name>soilbed_2.8_19</name>
+            <pose>4.9 2.8 0.4 0 0 1.5708</pose>
+        </include>
+        <include>
+            <uri>model://flowerpot_model</uri>
+            <name>flowerpot_2.8_19</name>
+            <pose>4.9 2.8 0.5 0 0 -1.6</pose>
+        </include>
+        <include>
+            <uri>model://soilbed_model</uri>
+            <name>soilbed_2.8_20</name>
+            <pose>5.6 2.8 0.4 0 0 1.5708</pose>
+        </include>
+        <include>
+            <uri>model://flowerpot_model</uri>
+            <name>flowerpot_2.8_20</name>
+            <pose>5.6 2.8 0.5 0 0 -1.6</pose>
+        </include>
+        <include>
+            <uri>model://soilbed_model</uri>
+            <name>soilbed_2.8_21</name>
+            <pose>6.3 2.8 0.4 0 0 1.5708</pose>
+        </include>
+        <include>
+            <uri>model://flowerpot_model</uri>
+            <name>flowerpot_2.8_21</name>
+            <pose>6.3 2.8 0.5 0 0 -1.6</pose>
+        </include>
+        <include>
+            <uri>model://soilbed_model</uri>
+            <name>soilbed_2.8_22</name>
+            <pose>7.0 2.8 0.4 0 0 1.5708</pose>
+        </include>
+        <include>
+            <uri>model://flowerpot_model</uri>
+            <name>flowerpot_2.8_22</name>
+            <pose>7.0 2.8 0.5 0 0 -1.6</pose>
+        </include>
+        <include>
+            <uri>model://soilbed_model</uri>
+            <name>soilbed_2.8_23</name>
+            <pose>7.7 2.8 0.4 0 0 1.5708</pose>
+        </include>
+        <include>
+            <uri>model://flowerpot_model</uri>
+            <name>flowerpot_2.8_23</name>
+            <pose>7.7 2.8 0.5 0 0 -1.6</pose>
+        </include>
+        <include>
+            <uri>model://soilbed_model</uri>
+            <name>soilbed_2.8_24</name>
+            <pose>8.4 2.8 0.4 0 0 1.5708</pose>
+        </include>
+        <include>
+            <uri>model://flowerpot_model</uri>
+            <name>flowerpot_2.8_24</name>
+            <pose>8.4 2.8 0.5 0 0 -1.6</pose>
+        </include>
+        <include>
+            <uri>model://lamp_model</uri>
+            <name>lamp_-2.8_-6.4</name>
+            <pose>-6.4 -2.8 2.6 0 3.14159 1.570795</pose>
+        </include>
+        <include>
+            <uri>model://lamp_model</uri>
+            <name>lamp_-2.8_-3.2</name>
+            <pose>-3.2 -2.8 2.6 0 3.14159 1.570795</pose>
+        </include>
+        <include>
+            <uri>model://lamp_model</uri>
+            <name>lamp_-2.8_0.0</name>
+            <pose>0.0 -2.8 2.6 0 3.14159 1.570795</pose>
+        </include>
+        <include>
+            <uri>model://lamp_model</uri>
+            <name>lamp_-2.8_3.2</name>
+            <pose>3.2 -2.8 2.6 0 3.14159 1.570795</pose>
+        </include>
+        <include>
+            <uri>model://lamp_model</uri>
+            <name>lamp_-2.8_6.4</name>
+            <pose>6.4 -2.8 2.6 0 3.14159 1.570795</pose>
+        </include>
+        <include>
+            <uri>model://lamp_model</uri>
+            <name>lamp_0.0_-6.4</name>
+            <pose>-6.4 0.0 2.6 0 3.14159 1.570795</pose>
+        </include>
+        <include>
+            <uri>model://lamp_model</uri>
+            <name>lamp_0.0_-3.2</name>
+            <pose>-3.2 0.0 2.6 0 3.14159 1.570795</pose>
+        </include>
+        <include>
+            <uri>model://lamp_model</uri>
+            <name>lamp_0.0_0.0</name>
+            <pose>0.0 0.0 2.6 0 3.14159 1.570795</pose>
+        </include>
+        <include>
+            <uri>model://lamp_model</uri>
+            <name>lamp_0.0_3.2</name>
+            <pose>3.2 0.0 2.6 0 3.14159 1.570795</pose>
+        </include>
+        <include>
+            <uri>model://lamp_model</uri>
+            <name>lamp_0.0_6.4</name>
+            <pose>6.4 0.0 2.6 0 3.14159 1.570795</pose>
+        </include>
+        <include>
+            <uri>model://lamp_model</uri>
+            <name>lamp_2.8_-6.4</name>
+            <pose>-6.4 2.8 2.6 0 3.14159 1.570795</pose>
+        </include>
+        <include>
+            <uri>model://lamp_model</uri>
+            <name>lamp_2.8_-3.2</name>
+            <pose>-3.2 2.8 2.6 0 3.14159 1.570795</pose>
+        </include>
+        <include>
+            <uri>model://lamp_model</uri>
+            <name>lamp_2.8_0.0</name>
+            <pose>0.0 2.8 2.6 0 3.14159 1.570795</pose>
+        </include>
+        <include>
+            <uri>model://lamp_model</uri>
+            <name>lamp_2.8_3.2</name>
+            <pose>3.2 2.8 2.6 0 3.14159 1.570795</pose>
+        </include>
+        <include>
+            <uri>model://lamp_model</uri>
+            <name>lamp_2.8_6.4</name>
+            <pose>6.4 2.8 2.6 0 3.14159 1.570795</pose>
+        </include>
+    </world>
+</sdf>

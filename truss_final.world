@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<sdf version="1.6">
+  <world name="truss_final">
+    <include><uri>model://sun</uri></include>
+    <include><uri>model://ground_plane</uri></include>
+    <include><uri>model://tomato1_truss</uri><name>truss_a</name><pose>0 0 0.3 0 0 0.0</pose></include>
+    <include><uri>model://tomato1_truss</uri><name>truss_b</name><pose>0.35 -0.25 0.3 0 0 1.2</pose></include>
+    <include><uri>model://tomato1_truss</uri><name>truss_c</name><pose>-0.3 0.3 0.3 0 0 2.5</pose></include>
+    <gui><camera name="user_camera"><pose>0.75 -1.1 1.25 0 0.12 0.58</pose></camera></gui>
+  </world>
+</sdf>

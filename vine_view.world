@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<sdf version="1.6">
+  <world name="vineview">
+    <include><uri>model://sun</uri></include>
+    <include><uri>model://ground_plane</uri></include>
+    <include><uri>model://tomato_vine_repo</uri><pose>0 0 0 0 0 0</pose></include>
+    <gui><camera name="user_camera"><pose>3.2 -2.4 1.45 0 0.05 2.37</pose></camera></gui>
+  </world>
+</sdf>

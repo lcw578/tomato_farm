@@ -1,0 +1,2334 @@
+<?xml version="1.0"?>
+<sdf version="1.6">
+  <model name="tomato_truss_42">
+    <static>true</static>
+    <link name="link">
+      <collision name="collision_trunk">
+        <geometry><cylinder><radius>0.012</radius><length>1.200</length></cylinder></geometry>
+        <pose>0 0 0.600 0 0 0</pose>
+      </collision>
+      <visual name="tomato_truss_42_trunk">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_trunk</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>branch</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_leaf0">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_leaf0</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>branch</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_leaf1">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_leaf1</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>branch</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_leaf2">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_leaf2</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>branch</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_leaf3">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_leaf3</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>branch</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_leaf4">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_leaf4</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>branch</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_leaf5">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_leaf5</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>branch</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_leaf6">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_leaf6</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>branch</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_leaf7">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_leaf7</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>branch</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_trussshot0">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_trussshot0</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>branch</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_fruit_t0_f0">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_fruit_t0_f0</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>fruit</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_pedicel_t0_f0">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_pedicel_t0_f0</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>branch</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_sepal_t0_f0">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_sepal_t0_f0</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>blossom</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_fruit_t0_f1">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_fruit_t0_f1</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>fruit</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_pedicel_t0_f1">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_pedicel_t0_f1</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>branch</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_sepal_t0_f1">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_sepal_t0_f1</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>blossom</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_fruit_t0_f2">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_fruit_t0_f2</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>fruit</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_pedicel_t0_f2">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_pedicel_t0_f2</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>branch</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_sepal_t0_f2">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_sepal_t0_f2</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>blossom</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_fruit_t0_f3">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_fruit_t0_f3</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>fruit</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_pedicel_t0_f3">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_pedicel_t0_f3</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>branch</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_sepal_t0_f3">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_sepal_t0_f3</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>blossom</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_fruit_t0_f4">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_fruit_t0_f4</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>fruit</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_pedicel_t0_f4">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_pedicel_t0_f4</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>branch</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_sepal_t0_f4">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_sepal_t0_f4</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>blossom</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_trussshot1">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_trussshot1</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>branch</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_fruit_t1_f0">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_fruit_t1_f0</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>fruit</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_pedicel_t1_f0">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_pedicel_t1_f0</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>branch</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_sepal_t1_f0">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_sepal_t1_f0</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>blossom</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_fruit_t1_f1">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_fruit_t1_f1</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>fruit</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_pedicel_t1_f1">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_pedicel_t1_f1</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>branch</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_sepal_t1_f1">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_sepal_t1_f1</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>blossom</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_fruit_t1_f2">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_fruit_t1_f2</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>fruit</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_pedicel_t1_f2">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_pedicel_t1_f2</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>branch</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_sepal_t1_f2">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_sepal_t1_f2</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>blossom</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_fruit_t1_f3">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_fruit_t1_f3</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>fruit</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_pedicel_t1_f3">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_pedicel_t1_f3</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>branch</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_sepal_t1_f3">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_sepal_t1_f3</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>blossom</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_fruit_t1_f4">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_fruit_t1_f4</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>fruit</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_pedicel_t1_f4">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_pedicel_t1_f4</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>branch</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_sepal_t1_f4">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_sepal_t1_f4</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>blossom</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_fruit_t1_f5">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_fruit_t1_f5</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>fruit</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_pedicel_t1_f5">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_pedicel_t1_f5</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>branch</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_sepal_t1_f5">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_sepal_t1_f5</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>blossom</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_trussshot2">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_trussshot2</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>branch</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_fruit_t2_f0">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_fruit_t2_f0</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>fruit</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_pedicel_t2_f0">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_pedicel_t2_f0</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>branch</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_sepal_t2_f0">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_sepal_t2_f0</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>blossom</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_fruit_t2_f1">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_fruit_t2_f1</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>fruit</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_pedicel_t2_f1">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_pedicel_t2_f1</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>branch</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_sepal_t2_f1">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_sepal_t2_f1</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>blossom</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_fruit_t2_f2">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_fruit_t2_f2</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>fruit</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_pedicel_t2_f2">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_pedicel_t2_f2</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>branch</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_sepal_t2_f2">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_sepal_t2_f2</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>blossom</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_fruit_t2_f3">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_fruit_t2_f3</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>fruit</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_pedicel_t2_f3">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_pedicel_t2_f3</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>branch</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_sepal_t2_f3">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_sepal_t2_f3</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>blossom</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_fruit_t2_f4">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_fruit_t2_f4</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>fruit</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_pedicel_t2_f4">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_pedicel_t2_f4</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>branch</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_sepal_t2_f4">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_sepal_t2_f4</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>blossom</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_fruit_t2_f5">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_fruit_t2_f5</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>fruit</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_pedicel_t2_f5">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_pedicel_t2_f5</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>branch</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_sepal_t2_f5">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_sepal_t2_f5</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>blossom</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_trussshot3">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_trussshot3</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>branch</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_fruit_t3_f0">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_fruit_t3_f0</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>fruit</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_pedicel_t3_f0">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_pedicel_t3_f0</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>branch</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_sepal_t3_f0">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_sepal_t3_f0</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>blossom</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_fruit_t3_f1">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_fruit_t3_f1</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>fruit</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_pedicel_t3_f1">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_pedicel_t3_f1</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>branch</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_sepal_t3_f1">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_sepal_t3_f1</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>blossom</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_fruit_t3_f2">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_fruit_t3_f2</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>fruit</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_pedicel_t3_f2">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_pedicel_t3_f2</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>branch</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_sepal_t3_f2">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_sepal_t3_f2</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>blossom</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_fruit_t3_f3">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_fruit_t3_f3</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>fruit</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_pedicel_t3_f3">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_pedicel_t3_f3</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>branch</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_sepal_t3_f3">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_sepal_t3_f3</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>blossom</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_fruit_t3_f4">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_fruit_t3_f4</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>fruit</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_pedicel_t3_f4">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_pedicel_t3_f4</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>branch</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_sepal_t3_f4">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_sepal_t3_f4</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>blossom</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_fruit_t3_f5">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_fruit_t3_f5</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>fruit</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_pedicel_t3_f5">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_pedicel_t3_f5</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>branch</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_sepal_t3_f5">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_sepal_t3_f5</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>blossom</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_trussshot4">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_trussshot4</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>branch</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_fruit_t4_f0">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_fruit_t4_f0</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>fruit</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_pedicel_t4_f0">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_pedicel_t4_f0</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>branch</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_sepal_t4_f0">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_sepal_t4_f0</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>blossom</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_fruit_t4_f1">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_fruit_t4_f1</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>fruit</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_pedicel_t4_f1">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_pedicel_t4_f1</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>branch</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_sepal_t4_f1">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_sepal_t4_f1</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>blossom</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_fruit_t4_f2">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_fruit_t4_f2</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>fruit</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_pedicel_t4_f2">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_pedicel_t4_f2</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>branch</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_sepal_t4_f2">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_sepal_t4_f2</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>blossom</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_fruit_t4_f3">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_fruit_t4_f3</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>fruit</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_pedicel_t4_f3">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_pedicel_t4_f3</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>branch</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_sepal_t4_f3">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_sepal_t4_f3</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>blossom</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_fruit_t4_f4">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_fruit_t4_f4</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>fruit</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_pedicel_t4_f4">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_pedicel_t4_f4</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>branch</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_sepal_t4_f4">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_sepal_t4_f4</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>blossom</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_fruit_t4_f5">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_fruit_t4_f5</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>fruit</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_pedicel_t4_f5">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_pedicel_t4_f5</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>branch</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_sepal_t4_f5">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_sepal_t4_f5</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>blossom</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_fruit_t4_f6">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_fruit_t4_f6</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>fruit</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_pedicel_t4_f6">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_pedicel_t4_f6</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>branch</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_sepal_t4_f6">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_sepal_t4_f6</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>blossom</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_fruit_t4_f7">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_fruit_t4_f7</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>fruit</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_pedicel_t4_f7">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_pedicel_t4_f7</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>branch</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_sepal_t4_f7">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_sepal_t4_f7</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>blossom</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_trussshot5">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_trussshot5</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>branch</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_fruit_t5_f0">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_fruit_t5_f0</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>fruit</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_pedicel_t5_f0">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_pedicel_t5_f0</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>branch</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_sepal_t5_f0">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_sepal_t5_f0</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>blossom</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_fruit_t5_f1">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_fruit_t5_f1</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>fruit</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_pedicel_t5_f1">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_pedicel_t5_f1</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>branch</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_sepal_t5_f1">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_sepal_t5_f1</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>blossom</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_fruit_t5_f2">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_fruit_t5_f2</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>fruit</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_pedicel_t5_f2">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_pedicel_t5_f2</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>branch</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_sepal_t5_f2">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_sepal_t5_f2</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>blossom</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_fruit_t5_f3">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_fruit_t5_f3</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>fruit</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_pedicel_t5_f3">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_pedicel_t5_f3</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>branch</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_sepal_t5_f3">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_sepal_t5_f3</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>blossom</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_fruit_t5_f4">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_fruit_t5_f4</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>fruit</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_pedicel_t5_f4">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_pedicel_t5_f4</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>branch</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_sepal_t5_f4">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_sepal_t5_f4</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>blossom</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_fruit_t5_f5">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_fruit_t5_f5</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>fruit</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_pedicel_t5_f5">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_pedicel_t5_f5</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>branch</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_sepal_t5_f5">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_sepal_t5_f5</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>blossom</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_fruit_t5_f6">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_fruit_t5_f6</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>fruit</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_pedicel_t5_f6">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_pedicel_t5_f6</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>branch</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="tomato_truss_42_sepal_t5_f6">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_truss_42/meshes/tomato_truss_42.dae</uri>
+            <submesh><name>tomato_truss_42_sepal_t5_f6</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <script>
+            <uri>model://tomato_truss_42/materials/scripts/</uri>
+            <uri>model://tomato_truss_42/materials/textures/</uri>
+            <name>blossom</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>

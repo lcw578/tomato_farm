@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<sdf version="1.6">
+  <world name="vineverify">
+    <include><uri>model://sun</uri></include>
+    <include><uri>model://ground_plane</uri></include>
+    <include><uri>model://tomato_vine_repo</uri><pose>0 0 0 0 0 0</pose></include>
+    <model name="cam_full">
+      <static>true</static>
+      <pose>3.2 -2.4 1.5 0 0.03 2.37</pose>
+      <link name="link">
+        <sensor type="camera" name="cam">
+          <update_rate>5</update_rate>
+          <camera><horizontal_fov>0.95</horizontal_fov><image><width>640</width><height>480</height><format>R8G8B8</format></image><clip><near>0.05</near><far>30</far></clip></camera>
+          <always_on>true</always_on><visualize>false</visualize>
+          <plugin name="p1" filename="libgazebo_ros_camera.so"><ros><namespace>/v1</namespace></ros></plugin>
+        </sensor>
+      </link>
+    </model>
+    <model name="cam_low">
+      <static>true</static>
+      <pose>2.0 -1.7 1.05 0 0.05 2.27</pose>
+      <link name="link">
+        <sensor type="camera" name="cam">
+          <update_rate>5</update_rate>
+          <camera><horizontal_fov>0.85</horizontal_fov><image><width>640</width><height>480</height><format>R8G8B8</format></image><clip><near>0.05</near><far>30</far></clip></camera>
+          <always_on>true</always_on><visualize>false</visualize>
+          <plugin name="p2" filename="libgazebo_ros_camera.so"><ros><namespace>/v2</namespace></ros></plugin>
+        </sensor>
+      </link>
+    </model>
+    <model name="cam_head">
+      <static>true</static>
+      <pose>0.9 -2.1 1.38 0 0.02 1.62</pose>
+      <link name="link">
+        <sensor type="camera" name="cam">
+          <update_rate>5</update_rate>
+          <camera><horizontal_fov>0.8</horizontal_fov><image><width>640</width><height>480</height><format>R8G8B8</format></image><clip><near>0.05</near><far>30</far></clip></camera>
+          <always_on>true</always_on><visualize>false</visualize>
+          <plugin name="p3" filename="libgazebo_ros_camera.so"><ros><namespace>/v3</namespace></ros></plugin>
+        </sensor>
+      </link>
+    </model>
+  </world>
+</sdf>

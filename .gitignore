@@ -1,0 +1,14 @@
+# colcon build artifacts
+build/
+install/
+log/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Blender backup files
+*.blend1
+
+# Third-party cloned repository (has its own .git)
+panda_ign_moveit2/

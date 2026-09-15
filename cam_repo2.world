@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<sdf version="1.6">
+  <world name="repotest2">
+    <include><uri>model://sun</uri></include>
+    <include><uri>model://ground_plane</uri></include>
+    <include><uri>model://tomato_plant_repo</uri><pose>0 0 0 0 0 0</pose></include>
+    <model name="viewcam">
+      <static>true</static>
+      <pose>1.7 -0.6 0.8 0 0.05 2.78</pose>
+      <link name="link">
+        <sensor type="camera" name="cam">
+          <update_rate>10</update_rate>
+          <camera><horizontal_fov>1.0</horizontal_fov><image><width>640</width><height>480</height><format>R8G8B8</format></image><clip><near>0.05</near><far>30</far></clip></camera>
+          <always_on>true</always_on><visualize>false</visualize>
+          <plugin name="cam_ros" filename="libgazebo_ros_camera.so"><ros><namespace>/testcam</namespace></ros></plugin>
+        </sensor>
+      </link>
+    </model>
+  </world>
+</sdf>

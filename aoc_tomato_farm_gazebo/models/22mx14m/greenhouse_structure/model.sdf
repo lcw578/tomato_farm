@@ -1,0 +1,23 @@
+<sdf version="1.6">
+  <model name="greenhouse_structure">
+    <static>true</static>
+   
+    <link name="link">
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://greenhouse_structure/meshes/Structure1.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+
+      <visual name= "structure">
+        <geometry>
+          <mesh>
+           <uri>model://greenhouse_structure/meshes/Structure.dae</uri>
+          </mesh>
+        </geometry>
+      </visual> 
+    </link>
+  </model>
+</sdf>

@@ -1,0 +1,26 @@
+material fruit
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture AG15frt1.png
+      }
+    }
+  }
+}
+material branch
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture AG15brn1.png
+      }
+    }
+  }
+}
