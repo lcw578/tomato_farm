@@ -12,9 +12,10 @@ import time
 import numpy as np
 from pathlib import Path
 
-TOMATO_DAE = Path('/home/lcw/aoc_tomato_farm/aoc_tomato_farm_gazebo/models/22mx14m/tomato_0/meshes/tomato.dae')
-TRUSS_MESH_DIR = Path('/home/lcw/aoc_tomato_farm/aoc_tomato_farm_gazebo/models/22mx14m/tomato1_truss/meshes')
-OUT_DIR = Path('/home/lcw/aoc_tomato_farm/aoc_tomato_farm_gazebo/models/22mx14m/tomato_plant_truss')
+BASE = str(Path(__file__).resolve().parent)
+TOMATO_DAE = Path(BASE) / 'aoc_tomato_farm_gazebo/models/22mx14m/tomato_0/meshes/tomato.dae'
+TRUSS_MESH_DIR = Path(BASE) / 'aoc_tomato_farm_gazebo/models/22mx14m/tomato1_truss/meshes'
+OUT_DIR = Path(BASE) / 'aoc_tomato_farm_gazebo/models/22mx14m/tomato_plant_truss'
 
 # ---------------- DAE 解析 ----------------
 

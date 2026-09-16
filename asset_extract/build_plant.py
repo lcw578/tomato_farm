@@ -6,8 +6,9 @@
 import bpy, json, math, sys, os
 from mathutils import Matrix, Vector
 
-TEX = '/home/lcw/aoc_tomato_farm/asset_extract/gz_textures'
-OUT = '/home/lcw/aoc_tomato_farm/asset_extract/out'
+BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+TEX = f'{BASE}/asset_extract/gz_textures'
+OUT = f'{BASE}/asset_extract/out'
 
 bpy.ops.wm.read_factory_settings(use_empty=True)
 

@@ -6,8 +6,9 @@
 import bpy, json, math, os
 from mathutils import Matrix, Vector
 
-TEX = '/home/lcw/aoc_tomato_farm/asset_extract/gz_textures'
-OUT = '/home/lcw/aoc_tomato_farm/asset_extract/out'
+BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+TEX = f'{BASE}/asset_extract/gz_textures'
+OUT = f'{BASE}/asset_extract/out'
 TILT = math.radians(30.0)
 CYL_TOP_Z = 1.45                     # 细藤顶端(世界z), 之上接作者枝条
 CYL_L = CYL_TOP_Z / math.cos(TILT)   # 斜圆柱实际长度

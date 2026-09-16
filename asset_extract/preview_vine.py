@@ -1,7 +1,8 @@
-import bpy, math
+import bpy, math, os
 from mathutils import Vector
+BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 bpy.ops.wm.read_factory_settings(use_empty=True)
-bpy.ops.wm.collada_import(filepath='/home/lcw/aoc_tomato_farm/asset_extract/out/tomato_vine_repo.dae')
+bpy.ops.wm.collada_import(filepath=f'{BASE}/asset_extract/out/tomato_vine_repo.dae')
 sc = bpy.context.scene
 sc.render.engine = 'BLENDER_WORKBENCH'
 sc.display.shading.light = 'STUDIO'
@@ -15,7 +16,7 @@ def shot(name, cam_loc, target):
     co.location = cam_loc
     d = Vector(target) - Vector(cam_loc)
     co.rotation_euler = d.to_track_quat('-Z', 'Y').to_euler()
-    sc.render.filepath = f'/home/lcw/aoc_tomato_farm/asset_extract/out/{name}.png'
+    sc.render.filepath = f'{BASE}/asset_extract/out/{name}.png'
     bpy.ops.render.render(write_still=True)
     print('SHOT', name)
 

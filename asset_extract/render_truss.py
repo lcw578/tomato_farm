@@ -1,7 +1,8 @@
-import bpy, math
+import bpy, math, os
 from mathutils import Vector
 
-TEX = '/home/lcw/aoc_tomato_farm/asset_extract/gz_textures'
+BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+TEX = f'{BASE}/asset_extract/gz_textures'
 
 def render_blend(path, out, view):
     bpy.ops.wm.open_mainfile(filepath=path)
@@ -45,6 +46,6 @@ def render_blend(path, out, view):
     print('DONE', out)
 
 B = 'unity_tomato_farm_generator/Assets/models/Tomatoes/'
-render_blend(B+'tomato1.blend',  '/home/lcw/aoc_tomato_farm/asset_extract/out/author_truss_tomato1_front.png', 'front')
-render_blend(B+'tomato1.blend',  '/home/lcw/aoc_tomato_farm/asset_extract/out/author_truss_tomato1_iso.png', 'iso')
-render_blend(B+'tomatoT2.blend', '/home/lcw/aoc_tomato_farm/asset_extract/out/author_truss_tomatoT2_front.png', 'front')
+render_blend(B+'tomato1.blend',  f'{BASE}/asset_extract/out/author_truss_tomato1_front.png', 'front')
+render_blend(B+'tomato1.blend',  f'{BASE}/asset_extract/out/author_truss_tomato1_iso.png', 'iso')
+render_blend(B+'tomatoT2.blend', f'{BASE}/asset_extract/out/author_truss_tomatoT2_front.png', 'front')

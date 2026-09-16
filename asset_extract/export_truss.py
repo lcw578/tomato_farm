@@ -1,8 +1,9 @@
 # 作者 tomato1.blend → 独立果串 Gazebo 模型（与已验证整株同管线）
-import bpy, json
+import bpy, json, os
 from mathutils import Vector
-TEX = '/home/lcw/aoc_tomato_farm/asset_extract/gz_textures'
-OUT = '/home/lcw/aoc_tomato_farm/asset_extract/out'
+BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+TEX = f'{BASE}/asset_extract/gz_textures'
+OUT = f'{BASE}/asset_extract/out'
 
 bpy.ops.wm.open_mainfile(filepath='unity_tomato_farm_generator/Assets/models/Tomatoes/tomato1.blend')
 def mat_img(name, png):

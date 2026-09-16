@@ -48,5 +48,4 @@ ln -s ~/aoc_tomato_farm/aoc_tomato_farm_gazebo/models/22mx14m/tomato1_truss ~/.g
 
 ## 已知问题
 
-- `view_truss_scene.sh` 硬编码了 `/home/lcw` 路径，非该用户需修改脚本内的路径。
 - `panda_ign_moveit2/` 为第三方仓库，未包含在本仓库内；MoveIt 示例需单独克隆。

@@ -2,8 +2,9 @@
 # 坐标为株体坐标（z 0.85~1.16），与旧 fruits.dae/stems.dae 一致
 import bpy, os
 
-SRC = '/home/lcw/aoc_tomato_farm/asset_extract/unity_tomato_farm_generator/Assets/models/Tomatoes/tomato1.blend'
-OUT = '/home/lcw/aoc_tomato_farm/asset_extract/out/truss_uv'
+BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+SRC = f'{BASE}/asset_extract/unity_tomato_farm_generator/Assets/models/Tomatoes/tomato1.blend'
+OUT = f'{BASE}/asset_extract/out/truss_uv'
 
 bpy.ops.wm.open_mainfile(filepath=SRC)
 

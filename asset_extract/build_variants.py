@@ -8,8 +8,9 @@
 import bpy, json, math, os, random, sys
 from mathutils import Matrix, Vector
 
-TEX = '/home/lcw/aoc_tomato_farm/asset_extract/gz_textures'
-OUTROOT = '/home/lcw/aoc_tomato_farm/asset_extract/out/variants'
+BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+TEX = f'{BASE}/asset_extract/gz_textures'
+OUTROOT = f'{BASE}/asset_extract/out/variants'
 TEMPLATES = [['red', 'red', 'orange', 'green'],
              ['red', 'red', 'red', 'orange'],
              ['red', 'orange', 'orange', 'green'],
@@ -17,8 +18,8 @@ TEMPLATES = [['red', 'red', 'orange', 'green'],
 CYL_TOP_Z = 1.45
 LOWER_Z = [0.80, 1.25]
 UPPER_LOCAL = [0.25, 0.60]
-TRUSS_BLEND = '/home/lcw/aoc_tomato_farm/asset_extract/unity_tomato_farm_generator/Assets/models/Tomatoes/tomato1.blend'
-STRUCT_DAE = '/home/lcw/aoc_tomato_farm/asset_extract/unity_tomato_farm_generator/Assets/Plant/tomato.dae'
+TRUSS_BLEND = f'{BASE}/asset_extract/unity_tomato_farm_generator/Assets/models/Tomatoes/tomato1.blend'
+STRUCT_DAE = f'{BASE}/asset_extract/unity_tomato_farm_generator/Assets/Plant/tomato.dae'
 
 def mat_img(name, png, rough=0.5, spec=0.5):
     m = bpy.data.materials.new(name)

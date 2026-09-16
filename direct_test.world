@@ -7,11 +7,11 @@
       <static>true</static>
       <link name="link">
         <visual name="fruits">
-          <geometry><mesh><uri>file:///home/lcw/.gazebo/models/tomato1_truss/meshes/fruits.dae</uri></mesh></geometry>
+          <geometry><mesh><uri>model://tomato1_truss/meshes/fruits.dae</uri></mesh></geometry>
           <material><ambient>0.82 0.10 0.06 1</ambient><diffuse>0.82 0.10 0.06 1</diffuse></material>
         </visual>
         <visual name="stems">
-          <geometry><mesh><uri>file:///home/lcw/.gazebo/models/tomato1_truss/meshes/stems.dae</uri></mesh></geometry>
+          <geometry><mesh><uri>model://tomato1_truss/meshes/stems.dae</uri></mesh></geometry>
           <material><ambient>0.22 0.40 0.14 1</ambient><diffuse>0.22 0.40 0.14 1</diffuse></material>
         </visual>
       </link>

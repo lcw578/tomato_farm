@@ -2,7 +2,7 @@
 # 番茄串查看（最终版：全部走默认路径，无 /tmp 依赖）
 pkill -9 -f gzserver 2>/dev/null; pkill -9 -f gzclient 2>/dev/null; sleep 2
 source /opt/ros/humble/setup.bash 2>/dev/null
-source /home/lcw/aoc_tomato_farm/install/setup.bash 2>/dev/null
+source $HOME/aoc_tomato_farm/install/setup.bash 2>/dev/null
 export GAZEBO_MODEL_DATABASE_URI=""
 export GAZEBO_MODEL_PATH=$HOME/.gazebo/models:/usr/share/gazebo-11/models:$GAZEBO_MODEL_PATH
 

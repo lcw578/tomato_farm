@@ -2,9 +2,9 @@
 # 番茄串场景查看（spawn 式插入 tomato1_truss 果串模型）
 pkill -9 -f gzserver 2>/dev/null; pkill -9 -f gzclient 2>/dev/null; sleep 1
 source /opt/ros/humble/setup.bash 2>/dev/null
-source /home/lcw/aoc_tomato_farm/install/setup.bash 2>/dev/null
+source $HOME/aoc_tomato_farm/install/setup.bash 2>/dev/null
 export GAZEBO_MODEL_DATABASE_URI=""
-export GAZEBO_MODEL_PATH=/home/lcw/aoc_tomato_farm/install/aoc_tomato_farm_gazebo/share/aoc_tomato_farm_gazebo/models/22mx14m:$HOME/.gazebo/models:/usr/share/gazebo-11/models:$GAZEBO_MODEL_PATH
+export GAZEBO_MODEL_PATH=$HOME/aoc_tomato_farm/install/aoc_tomato_farm_gazebo/share/aoc_tomato_farm_gazebo/models/22mx14m:$HOME/.gazebo/models:/usr/share/gazebo-11/models:$GAZEBO_MODEL_PATH
 export GAZEBO_MASTER_URI=http://localhost:11390
 pkill -9 -f gzserver 2>/dev/null; sleep 1
 cat > /tmp/truss_scene.world <<'W'

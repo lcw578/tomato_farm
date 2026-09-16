@@ -13,7 +13,8 @@ from compose_plant import Geom, parse_dae, TOMATO_DAE, TRUSS_MESH_DIR, write_dae
 
 OUT = None  # 由 run() 注入前先设默认
 import pathlib
-OUT = pathlib.Path('/home/lcw/aoc_tomato_farm/aoc_tomato_farm_gazebo/models/22mx14m/tomato_plant_truss')
+BASE = str(pathlib.Path(__file__).resolve().parent)
+OUT = pathlib.Path(BASE) / 'aoc_tomato_farm_gazebo/models/22mx14m/tomato_plant_truss'
 
 MAT_MAP = {'Branch1': 'branch', 'Leaf1': 'leaf1',
            'Leaf2': 'leaf2', 'Blossom3': 'blossom1'}
