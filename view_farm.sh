@@ -22,7 +22,7 @@ for pid in $(pgrep -x gzserver; pgrep -x gzclient); do
 done
 sleep 1
 
-echo "启动 gzserver（世界含 153 棵串收番茄 + 温室，加载约 10~20 秒）..."
+echo "启动 gzserver（世界含 75 棵随机化果串番茄（12 变体混排+朝向抖动）+ 温室，加载约 10~30 秒）..."
 nohup gzserver "$WORLD" --verbose > /tmp/aoc_gzserver.log 2>&1 &
 sleep 15
 

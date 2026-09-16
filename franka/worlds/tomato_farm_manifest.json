@@ -1,0 +1,756 @@
+{
+ "seed": 42,
+ "yaw_jitter_deg": 45.0,
+ "slots": [
+  {
+   "plant_id": "vine_plant_0",
+   "variant": 5,
+   "pose": [
+    -8.4,
+    -2.8,
+    0.5,
+    15.32
+   ]
+  },
+  {
+   "plant_id": "vine_plant_1",
+   "variant": 7,
+   "pose": [
+    -7.7,
+    -2.8,
+    0.5,
+    18.16
+   ]
+  },
+  {
+   "plant_id": "vine_plant_2",
+   "variant": 1,
+   "pose": [
+    -7.0,
+    -2.8,
+    0.5,
+    16.52
+   ]
+  },
+  {
+   "plant_id": "vine_plant_3",
+   "variant": 5,
+   "pose": [
+    -6.3,
+    -2.8,
+    0.5,
+    -38.57
+   ]
+  },
+  {
+   "plant_id": "vine_plant_4",
+   "variant": 7,
+   "pose": [
+    -5.6,
+    -2.8,
+    0.5,
+    12.15
+   ]
+  },
+  {
+   "plant_id": "vine_plant_5",
+   "variant": 6,
+   "pose": [
+    -4.9,
+    -2.8,
+    0.5,
+    3.07
+   ]
+  },
+  {
+   "plant_id": "vine_plant_6",
+   "variant": 8,
+   "pose": [
+    -4.2,
+    -2.8,
+    0.5,
+    -22.97
+   ]
+  },
+  {
+   "plant_id": "vine_plant_7",
+   "variant": 2,
+   "pose": [
+    -3.5,
+    -2.8,
+    0.5,
+    -3.4
+   ]
+  },
+  {
+   "plant_id": "vine_plant_8",
+   "variant": 6,
+   "pose": [
+    -2.8,
+    -2.8,
+    0.5,
+    -20.7
+   ]
+  },
+  {
+   "plant_id": "vine_plant_9",
+   "variant": 6,
+   "pose": [
+    -2.1,
+    -2.8,
+    0.5,
+    38.29
+   ]
+  },
+  {
+   "plant_id": "vine_plant_10",
+   "variant": 4,
+   "pose": [
+    -1.4,
+    -2.8,
+    0.5,
+    16.93
+   ]
+  },
+  {
+   "plant_id": "vine_plant_11",
+   "variant": 9,
+   "pose": [
+    -0.7,
+    -2.8,
+    0.5,
+    -25.23
+   ]
+  },
+  {
+   "plant_id": "vine_plant_12",
+   "variant": 10,
+   "pose": [
+    0.0,
+    -2.8,
+    0.5,
+    -15.81
+   ]
+  },
+  {
+   "plant_id": "vine_plant_13",
+   "variant": 11,
+   "pose": [
+    0.7,
+    -2.8,
+    0.5,
+    24.15
+   ]
+  },
+  {
+   "plant_id": "vine_plant_14",
+   "variant": 8,
+   "pose": [
+    1.4,
+    -2.8,
+    0.5,
+    -39.97
+   ]
+  },
+  {
+   "plant_id": "vine_plant_15",
+   "variant": 1,
+   "pose": [
+    2.1,
+    -2.8,
+    0.5,
+    28.96
+   ]
+  },
+  {
+   "plant_id": "vine_plant_16",
+   "variant": 9,
+   "pose": [
+    2.8,
+    -2.8,
+    0.5,
+    27.45
+   ]
+  },
+  {
+   "plant_id": "vine_plant_17",
+   "variant": 4,
+   "pose": [
+    3.5,
+    -2.8,
+    0.5,
+    -8.9
+   ]
+  },
+  {
+   "plant_id": "vine_plant_18",
+   "variant": 9,
+   "pose": [
+    4.2,
+    -2.8,
+    0.5,
+    -39.04
+   ]
+  },
+  {
+   "plant_id": "vine_plant_19",
+   "variant": 3,
+   "pose": [
+    4.9,
+    -2.8,
+    0.5,
+    37.18
+   ]
+  },
+  {
+   "plant_id": "vine_plant_20",
+   "variant": 10,
+   "pose": [
+    5.6,
+    -2.8,
+    0.5,
+    6.05
+   ]
+  },
+  {
+   "plant_id": "vine_plant_21",
+   "variant": 3,
+   "pose": [
+    6.3,
+    -2.8,
+    0.5,
+    19.61
+   ]
+  },
+  {
+   "plant_id": "vine_plant_22",
+   "variant": 3,
+   "pose": [
+    7.0,
+    -2.8,
+    0.5,
+    -25.86
+   ]
+  },
+  {
+   "plant_id": "vine_plant_23",
+   "variant": 9,
+   "pose": [
+    7.7,
+    -2.8,
+    0.5,
+    -0.07
+   ]
+  },
+  {
+   "plant_id": "vine_plant_24",
+   "variant": 8,
+   "pose": [
+    8.4,
+    -2.8,
+    0.5,
+    34.62
+   ]
+  },
+  {
+   "plant_id": "vine_plant_25",
+   "variant": 1,
+   "pose": [
+    -8.4,
+    0.0,
+    0.5,
+    12.86
+   ]
+  },
+  {
+   "plant_id": "vine_plant_26",
+   "variant": 9,
+   "pose": [
+    -7.7,
+    0.0,
+    0.5,
+    -32.14
+   ]
+  },
+  {
+   "plant_id": "vine_plant_27",
+   "variant": 10,
+   "pose": [
+    -7.0,
+    0.0,
+    0.5,
+    -32.43
+   ]
+  },
+  {
+   "plant_id": "vine_plant_28",
+   "variant": 7,
+   "pose": [
+    -6.3,
+    0.0,
+    0.5,
+    22.05
+   ]
+  },
+  {
+   "plant_id": "vine_plant_29",
+   "variant": 8,
+   "pose": [
+    -5.6,
+    0.0,
+    0.5,
+    3.51
+   ]
+  },
+  {
+   "plant_id": "vine_plant_30",
+   "variant": 3,
+   "pose": [
+    -4.9,
+    0.0,
+    0.5,
+    22.23
+   ]
+  },
+  {
+   "plant_id": "vine_plant_31",
+   "variant": 0,
+   "pose": [
+    -4.2,
+    0.0,
+    0.5,
+    -6.44
+   ]
+  },
+  {
+   "plant_id": "vine_plant_32",
+   "variant": 2,
+   "pose": [
+    -3.5,
+    0.0,
+    0.5,
+    7.52
+   ]
+  },
+  {
+   "plant_id": "vine_plant_33",
+   "variant": 8,
+   "pose": [
+    -2.8,
+    0.0,
+    0.5,
+    -12.42
+   ]
+  },
+  {
+   "plant_id": "vine_plant_34",
+   "variant": 3,
+   "pose": [
+    -2.1,
+    0.0,
+    0.5,
+    44.76
+   ]
+  },
+  {
+   "plant_id": "vine_plant_35",
+   "variant": 10,
+   "pose": [
+    -1.4,
+    0.0,
+    0.5,
+    -32.55
+   ]
+  },
+  {
+   "plant_id": "vine_plant_36",
+   "variant": 4,
+   "pose": [
+    -0.7,
+    0.0,
+    0.5,
+    -0.58
+   ]
+  },
+  {
+   "plant_id": "vine_plant_37",
+   "variant": 0,
+   "pose": [
+    0.0,
+    0.0,
+    0.5,
+    23.02
+   ]
+  },
+  {
+   "plant_id": "vine_plant_38",
+   "variant": 1,
+   "pose": [
+    0.7,
+    0.0,
+    0.5,
+    32.5
+   ]
+  },
+  {
+   "plant_id": "vine_plant_39",
+   "variant": 7,
+   "pose": [
+    1.4,
+    0.0,
+    0.5,
+    -31.24
+   ]
+  },
+  {
+   "plant_id": "vine_plant_40",
+   "variant": 11,
+   "pose": [
+    2.1,
+    0.0,
+    0.5,
+    -30.6
+   ]
+  },
+  {
+   "plant_id": "vine_plant_41",
+   "variant": 1,
+   "pose": [
+    2.8,
+    0.0,
+    0.5,
+    16.24
+   ]
+  },
+  {
+   "plant_id": "vine_plant_42",
+   "variant": 8,
+   "pose": [
+    3.5,
+    0.0,
+    0.5,
+    8.68
+   ]
+  },
+  {
+   "plant_id": "vine_plant_43",
+   "variant": 3,
+   "pose": [
+    4.2,
+    0.0,
+    0.5,
+    -10.37
+   ]
+  },
+  {
+   "plant_id": "vine_plant_44",
+   "variant": 10,
+   "pose": [
+    4.9,
+    0.0,
+    0.5,
+    8.63
+   ]
+  },
+  {
+   "plant_id": "vine_plant_45",
+   "variant": 11,
+   "pose": [
+    5.6,
+    0.0,
+    0.5,
+    -2.88
+   ]
+  },
+  {
+   "plant_id": "vine_plant_46",
+   "variant": 1,
+   "pose": [
+    6.3,
+    0.0,
+    0.5,
+    -22.37
+   ]
+  },
+  {
+   "plant_id": "vine_plant_47",
+   "variant": 0,
+   "pose": [
+    7.0,
+    0.0,
+    0.5,
+    4.79
+   ]
+  },
+  {
+   "plant_id": "vine_plant_48",
+   "variant": 11,
+   "pose": [
+    7.7,
+    0.0,
+    0.5,
+    39.82
+   ]
+  },
+  {
+   "plant_id": "vine_plant_49",
+   "variant": 6,
+   "pose": [
+    8.4,
+    0.0,
+    0.5,
+    16.23
+   ]
+  },
+  {
+   "plant_id": "vine_plant_50",
+   "variant": 10,
+   "pose": [
+    -8.4,
+    2.8,
+    0.5,
+    -34.69
+   ]
+  },
+  {
+   "plant_id": "vine_plant_51",
+   "variant": 10,
+   "pose": [
+    -7.7,
+    2.8,
+    0.5,
+    34.63
+   ]
+  },
+  {
+   "plant_id": "vine_plant_52",
+   "variant": 4,
+   "pose": [
+    -7.0,
+    2.8,
+    0.5,
+    22.58
+   ]
+  },
+  {
+   "plant_id": "vine_plant_53",
+   "variant": 5,
+   "pose": [
+    -6.3,
+    2.8,
+    0.5,
+    24.17
+   ]
+  },
+  {
+   "plant_id": "vine_plant_54",
+   "variant": 7,
+   "pose": [
+    -5.6,
+    2.8,
+    0.5,
+    -14.38
+   ]
+  },
+  {
+   "plant_id": "vine_plant_55",
+   "variant": 6,
+   "pose": [
+    -4.9,
+    2.8,
+    0.5,
+    -18.58
+   ]
+  },
+  {
+   "plant_id": "vine_plant_56",
+   "variant": 7,
+   "pose": [
+    -4.2,
+    2.8,
+    0.5,
+    -30.77
+   ]
+  },
+  {
+   "plant_id": "vine_plant_57",
+   "variant": 2,
+   "pose": [
+    -3.5,
+    2.8,
+    0.5,
+    -44.71
+   ]
+  },
+  {
+   "plant_id": "vine_plant_58",
+   "variant": 0,
+   "pose": [
+    -2.8,
+    2.8,
+    0.5,
+    19.99
+   ]
+  },
+  {
+   "plant_id": "vine_plant_59",
+   "variant": 0,
+   "pose": [
+    -2.1,
+    2.8,
+    0.5,
+    19.77
+   ]
+  },
+  {
+   "plant_id": "vine_plant_60",
+   "variant": 6,
+   "pose": [
+    -1.4,
+    2.8,
+    0.5,
+    42.47
+   ]
+  },
+  {
+   "plant_id": "vine_plant_61",
+   "variant": 5,
+   "pose": [
+    -0.7,
+    2.8,
+    0.5,
+    23.58
+   ]
+  },
+  {
+   "plant_id": "vine_plant_62",
+   "variant": 2,
+   "pose": [
+    0.0,
+    2.8,
+    0.5,
+    0.69
+   ]
+  },
+  {
+   "plant_id": "vine_plant_63",
+   "variant": 4,
+   "pose": [
+    0.7,
+    2.8,
+    0.5,
+    -35.42
+   ]
+  },
+  {
+   "plant_id": "vine_plant_64",
+   "variant": 11,
+   "pose": [
+    1.4,
+    2.8,
+    0.5,
+    11.28
+   ]
+  },
+  {
+   "plant_id": "vine_plant_65",
+   "variant": 0,
+   "pose": [
+    2.1,
+    2.8,
+    0.5,
+    30.75
+   ]
+  },
+  {
+   "plant_id": "vine_plant_66",
+   "variant": 0,
+   "pose": [
+    2.8,
+    2.8,
+    0.5,
+    0.69
+   ]
+  },
+  {
+   "plant_id": "vine_plant_67",
+   "variant": 9,
+   "pose": [
+    3.5,
+    2.8,
+    0.5,
+    -27.1
+   ]
+  },
+  {
+   "plant_id": "vine_plant_68",
+   "variant": 1,
+   "pose": [
+    4.2,
+    2.8,
+    0.5,
+    -11.35
+   ]
+  },
+  {
+   "plant_id": "vine_plant_69",
+   "variant": 11,
+   "pose": [
+    4.9,
+    2.8,
+    0.5,
+    -30.46
+   ]
+  },
+  {
+   "plant_id": "vine_plant_70",
+   "variant": 2,
+   "pose": [
+    5.6,
+    2.8,
+    0.5,
+    40.81
+   ]
+  },
+  {
+   "plant_id": "vine_plant_71",
+   "variant": 2,
+   "pose": [
+    6.3,
+    2.8,
+    0.5,
+    38.02
+   ]
+  },
+  {
+   "plant_id": "vine_plant_72",
+   "variant": 4,
+   "pose": [
+    7.0,
+    2.8,
+    0.5,
+    37.66
+   ]
+  },
+  {
+   "plant_id": "vine_plant_73",
+   "variant": 5,
+   "pose": [
+    7.7,
+    2.8,
+    0.5,
+    8.91
+   ]
+  },
+  {
+   "plant_id": "vine_plant_74",
+   "variant": 5,
+   "pose": [
+    8.4,
+    2.8,
+    0.5,
+    -1.03
+   ]
+  }
+ ]
+}

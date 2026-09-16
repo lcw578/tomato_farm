@@ -127,379 +127,379 @@
 
 
             <include>
-            <uri>model://tomato_vine_repo</uri>
+            <uri>model://tomato_vine_repo_v5</uri>
             <name>vine_plant_0</name>
-            <pose>-8.4 -2.8 0.5 0 0 0</pose>
+            <pose>-8.4 -2.8 0.5 0 0 15.32</pose>
         </include>
         <include>
-            <uri>model://tomato_vine_repo</uri>
+            <uri>model://tomato_vine_repo_v7</uri>
             <name>vine_plant_1</name>
-            <pose>-7.7 -2.8 0.5 0 0 0</pose>
+            <pose>-7.7 -2.8 0.5 0 0 18.16</pose>
         </include>
         <include>
-            <uri>model://tomato_vine_repo</uri>
+            <uri>model://tomato_vine_repo_v1</uri>
             <name>vine_plant_2</name>
-            <pose>-7.0 -2.8 0.5 0 0 0</pose>
+            <pose>-7.0 -2.8 0.5 0 0 16.52</pose>
         </include>
         <include>
-            <uri>model://tomato_vine_repo</uri>
+            <uri>model://tomato_vine_repo_v5</uri>
             <name>vine_plant_3</name>
-            <pose>-6.3 -2.8 0.5 0 0 0</pose>
+            <pose>-6.3 -2.8 0.5 0 0 -38.57</pose>
         </include>
         <include>
-            <uri>model://tomato_vine_repo</uri>
+            <uri>model://tomato_vine_repo_v7</uri>
             <name>vine_plant_4</name>
-            <pose>-5.6 -2.8 0.5 0 0 0</pose>
+            <pose>-5.6 -2.8 0.5 0 0 12.15</pose>
         </include>
         <include>
-            <uri>model://tomato_vine_repo</uri>
+            <uri>model://tomato_vine_repo_v6</uri>
             <name>vine_plant_5</name>
-            <pose>-4.9 -2.8 0.5 0 0 0</pose>
+            <pose>-4.9 -2.8 0.5 0 0 3.07</pose>
         </include>
         <include>
-            <uri>model://tomato_vine_repo</uri>
+            <uri>model://tomato_vine_repo_v8</uri>
             <name>vine_plant_6</name>
-            <pose>-4.2 -2.8 0.5 0 0 0</pose>
+            <pose>-4.2 -2.8 0.5 0 0 -22.97</pose>
         </include>
         <include>
-            <uri>model://tomato_vine_repo</uri>
+            <uri>model://tomato_vine_repo_v2</uri>
             <name>vine_plant_7</name>
-            <pose>-3.5 -2.8 0.5 0 0 0</pose>
+            <pose>-3.5 -2.8 0.5 0 0 -3.40</pose>
         </include>
         <include>
-            <uri>model://tomato_vine_repo</uri>
+            <uri>model://tomato_vine_repo_v6</uri>
             <name>vine_plant_8</name>
-            <pose>-2.8 -2.8 0.5 0 0 0</pose>
+            <pose>-2.8 -2.8 0.5 0 0 -20.70</pose>
         </include>
         <include>
-            <uri>model://tomato_vine_repo</uri>
+            <uri>model://tomato_vine_repo_v6</uri>
             <name>vine_plant_9</name>
-            <pose>-2.1 -2.8 0.5 0 0 0</pose>
+            <pose>-2.1 -2.8 0.5 0 0 38.29</pose>
         </include>
         <include>
-            <uri>model://tomato_vine_repo</uri>
+            <uri>model://tomato_vine_repo_v4</uri>
             <name>vine_plant_10</name>
-            <pose>-1.4 -2.8 0.5 0 0 0</pose>
+            <pose>-1.4 -2.8 0.5 0 0 16.93</pose>
         </include>
         <include>
-            <uri>model://tomato_vine_repo</uri>
+            <uri>model://tomato_vine_repo_v9</uri>
             <name>vine_plant_11</name>
-            <pose>-0.7 -2.8 0.5 0 0 0</pose>
+            <pose>-0.7 -2.8 0.5 0 0 -25.23</pose>
         </include>
         <include>
-            <uri>model://tomato_vine_repo</uri>
+            <uri>model://tomato_vine_repo_v10</uri>
             <name>vine_plant_12</name>
-            <pose>0.0 -2.8 0.5 0 0 0</pose>
+            <pose>0.0 -2.8 0.5 0 0 -15.81</pose>
         </include>
         <include>
-            <uri>model://tomato_vine_repo</uri>
+            <uri>model://tomato_vine_repo_v11</uri>
             <name>vine_plant_13</name>
-            <pose>0.7 -2.8 0.5 0 0 0</pose>
+            <pose>0.7 -2.8 0.5 0 0 24.15</pose>
         </include>
         <include>
-            <uri>model://tomato_vine_repo</uri>
+            <uri>model://tomato_vine_repo_v8</uri>
             <name>vine_plant_14</name>
-            <pose>1.4 -2.8 0.5 0 0 0</pose>
+            <pose>1.4 -2.8 0.5 0 0 -39.97</pose>
         </include>
         <include>
-            <uri>model://tomato_vine_repo</uri>
+            <uri>model://tomato_vine_repo_v1</uri>
             <name>vine_plant_15</name>
-            <pose>2.1 -2.8 0.5 0 0 0</pose>
+            <pose>2.1 -2.8 0.5 0 0 28.96</pose>
         </include>
         <include>
-            <uri>model://tomato_vine_repo</uri>
+            <uri>model://tomato_vine_repo_v9</uri>
             <name>vine_plant_16</name>
-            <pose>2.8 -2.8 0.5 0 0 0</pose>
+            <pose>2.8 -2.8 0.5 0 0 27.45</pose>
         </include>
         <include>
-            <uri>model://tomato_vine_repo</uri>
+            <uri>model://tomato_vine_repo_v4</uri>
             <name>vine_plant_17</name>
-            <pose>3.5 -2.8 0.5 0 0 0</pose>
+            <pose>3.5 -2.8 0.5 0 0 -8.90</pose>
         </include>
         <include>
-            <uri>model://tomato_vine_repo</uri>
+            <uri>model://tomato_vine_repo_v9</uri>
             <name>vine_plant_18</name>
-            <pose>4.2 -2.8 0.5 0 0 0</pose>
+            <pose>4.2 -2.8 0.5 0 0 -39.04</pose>
         </include>
         <include>
-            <uri>model://tomato_vine_repo</uri>
+            <uri>model://tomato_vine_repo_v3</uri>
             <name>vine_plant_19</name>
-            <pose>4.9 -2.8 0.5 0 0 0</pose>
+            <pose>4.9 -2.8 0.5 0 0 37.18</pose>
         </include>
         <include>
-            <uri>model://tomato_vine_repo</uri>
+            <uri>model://tomato_vine_repo_v10</uri>
             <name>vine_plant_20</name>
-            <pose>5.6 -2.8 0.5 0 0 0</pose>
+            <pose>5.6 -2.8 0.5 0 0 6.05</pose>
         </include>
         <include>
-            <uri>model://tomato_vine_repo</uri>
+            <uri>model://tomato_vine_repo_v3</uri>
             <name>vine_plant_21</name>
-            <pose>6.3 -2.8 0.5 0 0 0</pose>
+            <pose>6.3 -2.8 0.5 0 0 19.61</pose>
         </include>
         <include>
-            <uri>model://tomato_vine_repo</uri>
+            <uri>model://tomato_vine_repo_v3</uri>
             <name>vine_plant_22</name>
-            <pose>7.0 -2.8 0.5 0 0 0</pose>
+            <pose>7.0 -2.8 0.5 0 0 -25.86</pose>
         </include>
         <include>
-            <uri>model://tomato_vine_repo</uri>
+            <uri>model://tomato_vine_repo_v9</uri>
             <name>vine_plant_23</name>
-            <pose>7.7 -2.8 0.5 0 0 0</pose>
+            <pose>7.7 -2.8 0.5 0 0 -0.07</pose>
         </include>
         <include>
-            <uri>model://tomato_vine_repo</uri>
+            <uri>model://tomato_vine_repo_v8</uri>
             <name>vine_plant_24</name>
-            <pose>8.4 -2.8 0.5 0 0 0</pose>
+            <pose>8.4 -2.8 0.5 0 0 34.62</pose>
         </include>
         <include>
-            <uri>model://tomato_vine_repo</uri>
+            <uri>model://tomato_vine_repo_v1</uri>
             <name>vine_plant_25</name>
-            <pose>-8.4 0.0 0.5 0 0 0</pose>
+            <pose>-8.4 0.0 0.5 0 0 12.86</pose>
         </include>
         <include>
-            <uri>model://tomato_vine_repo</uri>
+            <uri>model://tomato_vine_repo_v9</uri>
             <name>vine_plant_26</name>
-            <pose>-7.7 0.0 0.5 0 0 0</pose>
+            <pose>-7.7 0.0 0.5 0 0 -32.14</pose>
         </include>
         <include>
-            <uri>model://tomato_vine_repo</uri>
+            <uri>model://tomato_vine_repo_v10</uri>
             <name>vine_plant_27</name>
-            <pose>-7.0 0.0 0.5 0 0 0</pose>
+            <pose>-7.0 0.0 0.5 0 0 -32.43</pose>
         </include>
         <include>
-            <uri>model://tomato_vine_repo</uri>
+            <uri>model://tomato_vine_repo_v7</uri>
             <name>vine_plant_28</name>
-            <pose>-6.3 0.0 0.5 0 0 0</pose>
+            <pose>-6.3 0.0 0.5 0 0 22.05</pose>
         </include>
         <include>
-            <uri>model://tomato_vine_repo</uri>
+            <uri>model://tomato_vine_repo_v8</uri>
             <name>vine_plant_29</name>
-            <pose>-5.6 0.0 0.5 0 0 0</pose>
+            <pose>-5.6 0.0 0.5 0 0 3.51</pose>
         </include>
         <include>
-            <uri>model://tomato_vine_repo</uri>
+            <uri>model://tomato_vine_repo_v3</uri>
             <name>vine_plant_30</name>
-            <pose>-4.9 0.0 0.5 0 0 0</pose>
+            <pose>-4.9 0.0 0.5 0 0 22.23</pose>
         </include>
         <include>
-            <uri>model://tomato_vine_repo</uri>
+            <uri>model://tomato_vine_repo_v0</uri>
             <name>vine_plant_31</name>
-            <pose>-4.2 0.0 0.5 0 0 0</pose>
+            <pose>-4.2 0.0 0.5 0 0 -6.44</pose>
         </include>
         <include>
-            <uri>model://tomato_vine_repo</uri>
+            <uri>model://tomato_vine_repo_v2</uri>
             <name>vine_plant_32</name>
-            <pose>-3.5 0.0 0.5 0 0 0</pose>
+            <pose>-3.5 0.0 0.5 0 0 7.52</pose>
         </include>
         <include>
-            <uri>model://tomato_vine_repo</uri>
+            <uri>model://tomato_vine_repo_v8</uri>
             <name>vine_plant_33</name>
-            <pose>-2.8 0.0 0.5 0 0 0</pose>
+            <pose>-2.8 0.0 0.5 0 0 -12.42</pose>
         </include>
         <include>
-            <uri>model://tomato_vine_repo</uri>
+            <uri>model://tomato_vine_repo_v3</uri>
             <name>vine_plant_34</name>
-            <pose>-2.1 0.0 0.5 0 0 0</pose>
+            <pose>-2.1 0.0 0.5 0 0 44.76</pose>
         </include>
         <include>
-            <uri>model://tomato_vine_repo</uri>
+            <uri>model://tomato_vine_repo_v10</uri>
             <name>vine_plant_35</name>
-            <pose>-1.4 0.0 0.5 0 0 0</pose>
+            <pose>-1.4 0.0 0.5 0 0 -32.55</pose>
         </include>
         <include>
-            <uri>model://tomato_vine_repo</uri>
+            <uri>model://tomato_vine_repo_v4</uri>
             <name>vine_plant_36</name>
-            <pose>-0.7 0.0 0.5 0 0 0</pose>
+            <pose>-0.7 0.0 0.5 0 0 -0.58</pose>
         </include>
         <include>
-            <uri>model://tomato_vine_repo</uri>
+            <uri>model://tomato_vine_repo_v0</uri>
             <name>vine_plant_37</name>
-            <pose>0.0 0.0 0.5 0 0 0</pose>
+            <pose>0.0 0.0 0.5 0 0 23.02</pose>
         </include>
         <include>
-            <uri>model://tomato_vine_repo</uri>
+            <uri>model://tomato_vine_repo_v1</uri>
             <name>vine_plant_38</name>
-            <pose>0.7 0.0 0.5 0 0 0</pose>
+            <pose>0.7 0.0 0.5 0 0 32.50</pose>
         </include>
         <include>
-            <uri>model://tomato_vine_repo</uri>
+            <uri>model://tomato_vine_repo_v7</uri>
             <name>vine_plant_39</name>
-            <pose>1.4 0.0 0.5 0 0 0</pose>
+            <pose>1.4 0.0 0.5 0 0 -31.24</pose>
         </include>
         <include>
-            <uri>model://tomato_vine_repo</uri>
+            <uri>model://tomato_vine_repo_v11</uri>
             <name>vine_plant_40</name>
-            <pose>2.1 0.0 0.5 0 0 0</pose>
+            <pose>2.1 0.0 0.5 0 0 -30.60</pose>
         </include>
         <include>
-            <uri>model://tomato_vine_repo</uri>
+            <uri>model://tomato_vine_repo_v1</uri>
             <name>vine_plant_41</name>
-            <pose>2.8 0.0 0.5 0 0 0</pose>
+            <pose>2.8 0.0 0.5 0 0 16.24</pose>
         </include>
         <include>
-            <uri>model://tomato_vine_repo</uri>
+            <uri>model://tomato_vine_repo_v8</uri>
             <name>vine_plant_42</name>
-            <pose>3.5 0.0 0.5 0 0 0</pose>
+            <pose>3.5 0.0 0.5 0 0 8.68</pose>
         </include>
         <include>
-            <uri>model://tomato_vine_repo</uri>
+            <uri>model://tomato_vine_repo_v3</uri>
             <name>vine_plant_43</name>
-            <pose>4.2 0.0 0.5 0 0 0</pose>
+            <pose>4.2 0.0 0.5 0 0 -10.37</pose>
         </include>
         <include>
-            <uri>model://tomato_vine_repo</uri>
+            <uri>model://tomato_vine_repo_v10</uri>
             <name>vine_plant_44</name>
-            <pose>4.9 0.0 0.5 0 0 0</pose>
+            <pose>4.9 0.0 0.5 0 0 8.63</pose>
         </include>
         <include>
-            <uri>model://tomato_vine_repo</uri>
+            <uri>model://tomato_vine_repo_v11</uri>
             <name>vine_plant_45</name>
-            <pose>5.6 0.0 0.5 0 0 0</pose>
+            <pose>5.6 0.0 0.5 0 0 -2.88</pose>
         </include>
         <include>
-            <uri>model://tomato_vine_repo</uri>
+            <uri>model://tomato_vine_repo_v1</uri>
             <name>vine_plant_46</name>
-            <pose>6.3 0.0 0.5 0 0 0</pose>
+            <pose>6.3 0.0 0.5 0 0 -22.37</pose>
         </include>
         <include>
-            <uri>model://tomato_vine_repo</uri>
+            <uri>model://tomato_vine_repo_v0</uri>
             <name>vine_plant_47</name>
-            <pose>7.0 0.0 0.5 0 0 0</pose>
+            <pose>7.0 0.0 0.5 0 0 4.79</pose>
         </include>
         <include>
-            <uri>model://tomato_vine_repo</uri>
+            <uri>model://tomato_vine_repo_v11</uri>
             <name>vine_plant_48</name>
-            <pose>7.7 0.0 0.5 0 0 0</pose>
+            <pose>7.7 0.0 0.5 0 0 39.82</pose>
         </include>
         <include>
-            <uri>model://tomato_vine_repo</uri>
+            <uri>model://tomato_vine_repo_v6</uri>
             <name>vine_plant_49</name>
-            <pose>8.4 0.0 0.5 0 0 0</pose>
+            <pose>8.4 0.0 0.5 0 0 16.23</pose>
         </include>
         <include>
-            <uri>model://tomato_vine_repo</uri>
+            <uri>model://tomato_vine_repo_v10</uri>
             <name>vine_plant_50</name>
-            <pose>-8.4 2.8 0.5 0 0 0</pose>
+            <pose>-8.4 2.8 0.5 0 0 -34.69</pose>
         </include>
         <include>
-            <uri>model://tomato_vine_repo</uri>
+            <uri>model://tomato_vine_repo_v10</uri>
             <name>vine_plant_51</name>
-            <pose>-7.7 2.8 0.5 0 0 0</pose>
+            <pose>-7.7 2.8 0.5 0 0 34.63</pose>
         </include>
         <include>
-            <uri>model://tomato_vine_repo</uri>
+            <uri>model://tomato_vine_repo_v4</uri>
             <name>vine_plant_52</name>
-            <pose>-7.0 2.8 0.5 0 0 0</pose>
+            <pose>-7.0 2.8 0.5 0 0 22.58</pose>
         </include>
         <include>
-            <uri>model://tomato_vine_repo</uri>
+            <uri>model://tomato_vine_repo_v5</uri>
             <name>vine_plant_53</name>
-            <pose>-6.3 2.8 0.5 0 0 0</pose>
+            <pose>-6.3 2.8 0.5 0 0 24.17</pose>
         </include>
         <include>
-            <uri>model://tomato_vine_repo</uri>
+            <uri>model://tomato_vine_repo_v7</uri>
             <name>vine_plant_54</name>
-            <pose>-5.6 2.8 0.5 0 0 0</pose>
+            <pose>-5.6 2.8 0.5 0 0 -14.38</pose>
         </include>
         <include>
-            <uri>model://tomato_vine_repo</uri>
+            <uri>model://tomato_vine_repo_v6</uri>
             <name>vine_plant_55</name>
-            <pose>-4.9 2.8 0.5 0 0 0</pose>
+            <pose>-4.9 2.8 0.5 0 0 -18.58</pose>
         </include>
         <include>
-            <uri>model://tomato_vine_repo</uri>
+            <uri>model://tomato_vine_repo_v7</uri>
             <name>vine_plant_56</name>
-            <pose>-4.2 2.8 0.5 0 0 0</pose>
+            <pose>-4.2 2.8 0.5 0 0 -30.77</pose>
         </include>
         <include>
-            <uri>model://tomato_vine_repo</uri>
+            <uri>model://tomato_vine_repo_v2</uri>
             <name>vine_plant_57</name>
-            <pose>-3.5 2.8 0.5 0 0 0</pose>
+            <pose>-3.5 2.8 0.5 0 0 -44.71</pose>
         </include>
         <include>
-            <uri>model://tomato_vine_repo</uri>
+            <uri>model://tomato_vine_repo_v0</uri>
             <name>vine_plant_58</name>
-            <pose>-2.8 2.8 0.5 0 0 0</pose>
+            <pose>-2.8 2.8 0.5 0 0 19.99</pose>
         </include>
         <include>
-            <uri>model://tomato_vine_repo</uri>
+            <uri>model://tomato_vine_repo_v0</uri>
             <name>vine_plant_59</name>
-            <pose>-2.1 2.8 0.5 0 0 0</pose>
+            <pose>-2.1 2.8 0.5 0 0 19.77</pose>
         </include>
         <include>
-            <uri>model://tomato_vine_repo</uri>
+            <uri>model://tomato_vine_repo_v6</uri>
             <name>vine_plant_60</name>
-            <pose>-1.4 2.8 0.5 0 0 0</pose>
+            <pose>-1.4 2.8 0.5 0 0 42.47</pose>
         </include>
         <include>
-            <uri>model://tomato_vine_repo</uri>
+            <uri>model://tomato_vine_repo_v5</uri>
             <name>vine_plant_61</name>
-            <pose>-0.7 2.8 0.5 0 0 0</pose>
+            <pose>-0.7 2.8 0.5 0 0 23.58</pose>
         </include>
         <include>
-            <uri>model://tomato_vine_repo</uri>
+            <uri>model://tomato_vine_repo_v2</uri>
             <name>vine_plant_62</name>
-            <pose>0.0 2.8 0.5 0 0 0</pose>
+            <pose>0.0 2.8 0.5 0 0 0.69</pose>
         </include>
         <include>
-            <uri>model://tomato_vine_repo</uri>
+            <uri>model://tomato_vine_repo_v4</uri>
             <name>vine_plant_63</name>
-            <pose>0.7 2.8 0.5 0 0 0</pose>
+            <pose>0.7 2.8 0.5 0 0 -35.42</pose>
         </include>
         <include>
-            <uri>model://tomato_vine_repo</uri>
+            <uri>model://tomato_vine_repo_v11</uri>
             <name>vine_plant_64</name>
-            <pose>1.4 2.8 0.5 0 0 0</pose>
+            <pose>1.4 2.8 0.5 0 0 11.28</pose>
         </include>
         <include>
-            <uri>model://tomato_vine_repo</uri>
+            <uri>model://tomato_vine_repo_v0</uri>
             <name>vine_plant_65</name>
-            <pose>2.1 2.8 0.5 0 0 0</pose>
+            <pose>2.1 2.8 0.5 0 0 30.75</pose>
         </include>
         <include>
-            <uri>model://tomato_vine_repo</uri>
+            <uri>model://tomato_vine_repo_v0</uri>
             <name>vine_plant_66</name>
-            <pose>2.8 2.8 0.5 0 0 0</pose>
+            <pose>2.8 2.8 0.5 0 0 0.69</pose>
         </include>
         <include>
-            <uri>model://tomato_vine_repo</uri>
+            <uri>model://tomato_vine_repo_v9</uri>
             <name>vine_plant_67</name>
-            <pose>3.5 2.8 0.5 0 0 0</pose>
+            <pose>3.5 2.8 0.5 0 0 -27.10</pose>
         </include>
         <include>
-            <uri>model://tomato_vine_repo</uri>
+            <uri>model://tomato_vine_repo_v1</uri>
             <name>vine_plant_68</name>
-            <pose>4.2 2.8 0.5 0 0 0</pose>
+            <pose>4.2 2.8 0.5 0 0 -11.35</pose>
         </include>
         <include>
-            <uri>model://tomato_vine_repo</uri>
+            <uri>model://tomato_vine_repo_v11</uri>
             <name>vine_plant_69</name>
-            <pose>4.9 2.8 0.5 0 0 0</pose>
+            <pose>4.9 2.8 0.5 0 0 -30.46</pose>
         </include>
         <include>
-            <uri>model://tomato_vine_repo</uri>
+            <uri>model://tomato_vine_repo_v2</uri>
             <name>vine_plant_70</name>
-            <pose>5.6 2.8 0.5 0 0 0</pose>
+            <pose>5.6 2.8 0.5 0 0 40.81</pose>
         </include>
         <include>
-            <uri>model://tomato_vine_repo</uri>
+            <uri>model://tomato_vine_repo_v2</uri>
             <name>vine_plant_71</name>
-            <pose>6.3 2.8 0.5 0 0 0</pose>
+            <pose>6.3 2.8 0.5 0 0 38.02</pose>
         </include>
         <include>
-            <uri>model://tomato_vine_repo</uri>
+            <uri>model://tomato_vine_repo_v4</uri>
             <name>vine_plant_72</name>
-            <pose>7.0 2.8 0.5 0 0 0</pose>
+            <pose>7.0 2.8 0.5 0 0 37.66</pose>
         </include>
         <include>
-            <uri>model://tomato_vine_repo</uri>
+            <uri>model://tomato_vine_repo_v5</uri>
             <name>vine_plant_73</name>
-            <pose>7.7 2.8 0.5 0 0 0</pose>
+            <pose>7.7 2.8 0.5 0 0 8.91</pose>
         </include>
         <include>
-            <uri>model://tomato_vine_repo</uri>
+            <uri>model://tomato_vine_repo_v5</uri>
             <name>vine_plant_74</name>
-            <pose>8.4 2.8 0.5 0 0 0</pose>
+            <pose>8.4 2.8 0.5 0 0 -1.03</pose>
         </include>
         <include>
             <uri>model://soilbed_model</uri>
