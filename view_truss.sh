@@ -7,7 +7,7 @@ export GAZEBO_MODEL_DATABASE_URI=""
 export GAZEBO_MODEL_PATH=$HOME/.gazebo/models:/usr/share/gazebo-11/models:$GAZEBO_MODEL_PATH
 
 echo "=== 启动 Gazebo Server ==="
-gzserver $HOME/aoc_tomato_farm/truss_show.world &
+gzserver $HOME/aoc_tomato_farm/aoc_tomato_farm_gazebo/worlds/preview/truss_show.world &
 SPID=$!
 sleep 8
 

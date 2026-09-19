@@ -12,3 +12,7 @@ __pycache__/
 
 # Third-party cloned repository (has its own .git)
 panda_ign_moveit2/
+
+# Blender 中间产物：只保留 out/variants 最终成果（变体源+markers，gen_farm_world.py 依赖）
+asset_extract/out/*
+!asset_extract/out/variants/
