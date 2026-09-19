@@ -1,6 +1,6 @@
 # 克隆后如何运行（RUNNING.md）
 
-本仓库为 ROS 2 Humble + Gazebo Classic 11 的番茄农场仿真。克隆后按以下步骤运行。
+本仓库为 ROS 2 Humble + Gazebo Classic 11 的番茄农场仿真。克隆后按以下步骤运行。目录结构、随机化机制与模型清单详见 [README.md](README.md)。
 
 ## 0. 环境要求
 
@@ -35,7 +35,7 @@ source install/setup.bash
 
 | 场景 | 命令 |
 |---|---|
-| 完整温室农场（153 棵番茄，一键） | `bash ~/aoc_tomato_farm/view_farm.sh` |
+| 完整温室农场（75 棵随机化果串番茄，一键） | `bash ~/aoc_tomato_farm/view_farm.sh` |
 | 标准 ROS 2 启动方式（默认 22mx14m 农场） | `ros2 launch aoc_tomato_farm_gazebo tomato_farm_world.launch.py` |
 | 单株番茄（免编译，最快） | `bash ~/aoc_tomato_farm/view_vine.sh` |
 | 番茄果串查看 | 先建软链接（见下），再 `bash ~/aoc_tomato_farm/view_truss.sh` |
